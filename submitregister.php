@@ -29,6 +29,7 @@ $emailadd = $about_res[member_user_email];
 
 if (isset($_POST['login'])) {
     $lusername = mysql_real_escape_string(strtolower($_POST['lusername']));
+    $redirection = $_POST['redirection'];
     $lpassword = $_POST['lpassword'];
     $lnewpass = mysql_real_escape_string(md5($_POST['lpassword']));
     $lats = $_POST[lats];
@@ -54,7 +55,13 @@ if (isset($_POST['login'])) {
         mysql_query("UPDATE freelancer_mmv_work SET lastseen='$now', timezone='$timezone' where member_id='$adminid'");
 
         if ($login_res['firstlogin'] == 1) {
-            echo "<script>window.location='index.php?status=updateprof'</script>";
+            if ($redirection == 'postvideo') {
+                echo "<script>window.location='index.php#videoPopup'</script>";
+            } else if ($redirection != '') {
+                echo "<script>window.location='" . $redirection . "?status=updateprof'</script>";
+            } else {
+                echo "<script>window.location='index.php?status=updateprof'</script>";
+            }
         } else {
             echo "<script>window.location='make-profile.php?status=updateprof'</script>";
         }

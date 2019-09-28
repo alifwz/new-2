@@ -32,8 +32,7 @@ if (isset($_POST[submitrating])) {
     $query3 = mysql_query("INSERT INTO freelancer_mmv_reviewratings (id, invitationid, reviewto, reviewby, ratings, reviewdesc, date) VALUES ('', '$invid', '$clieid','$loginid','$ratingnum','$reviewdesc','$now')");
 
     if ($query3 == 1) {
-        $_SESSION['status'] = "posted";
-        echo "<script>window.location='viewclient.php?id=$clieid'</script>";exit;
+        echo "<script>window.location='viewclient.php?id=$clieid&status=posted'</script>";
     }
     echo "<script>window.location='viewclient.php?id=$clieid'</script>";
 }
@@ -102,7 +101,7 @@ if (isset($_POST[submitrating])) {
                                 <?php if ($loginid != '') { ?>
                                     <a href="meeting-request.php?clientid=<?php echo $clieid ?>&num=1" class="button light-yellow">Meet</a>
                                 <?php } else { ?>
-                                    <a href="#" data-fancybox data-type="inline" data-src="#loginPopup" class="button light-yellow">Meet</a>
+                                    <a data-type="meeting-request.php?clientid=<?php echo $clieid ?>&num=1" href="javascript:void(0);" class="button light-yellow loginpopup">Meet</a>
                                 <?php } ?>
                                 <?php if ($about_res[verified_document] != "" && $about_res[verifiedstatus] != '0') { ?>
                                     <a href="javascript:void(0);" class="button verified">Verified</a>
@@ -231,35 +230,35 @@ if (isset($_POST[submitrating])) {
                             <div class="div-row grey-bg">
                                 <?php
                                 /* Get Distance */
-                                $login_que = mysql_query("SELECT * from freelancer_mmv_member_master where member_id='$loginid'");
-                                $login_result = mysql_fetch_array($login_que);
-                                $login_que1 = mysql_query("SELECT * from freelancer_mmv_member_master where member_id='$clieid'");
-                                $login_result1 = mysql_fetch_array($login_que1);
+                                /* $login_que = mysql_query("SELECT * from freelancer_mmv_member_master where member_id='$loginid'");
+                                  $login_result = mysql_fetch_array($login_que);
+                                  $login_que1 = mysql_query("SELECT * from freelancer_mmv_member_master where member_id='$clieid'");
+                                  $login_result1 = mysql_fetch_array($login_que1);
 
-                                if ($loginid == "") {
-                                    $latitudeFrom = $_COOKIE['mylatitude'];
-                                    $longitudeFrom = $_COOKIE['mylongitude'];
-                                } else {
-                                    $latitudeFrom = $login_result['loginlats'];
-                                    $longitudeFrom = $login_result['loginlong'];
-                                }
+                                  if ($loginid == "") {
+                                  $latitudeFrom = $_COOKIE['mylatitude'];
+                                  $longitudeFrom = $_COOKIE['mylongitude'];
+                                  } else {
+                                  $latitudeFrom = $login_result['loginlats'];
+                                  $longitudeFrom = $login_result['loginlong'];
+                                  }
 
-                                $latitudeTo = $login_result1['loginlats'];
-                                $longitudeTo = $login_result1['loginlong'];
+                                  $latitudeTo = $login_result1['loginlats'];
+                                  $longitudeTo = $login_result1['loginlong'];
 
-                                $distt = distance($latitudeFrom, $longitudeFrom, $latitudeTo, $longitudeTo, "K") . " Kilometers<br>";
-                                $finaldist = $distt;
+                                  $distt = distance($latitudeFrom, $longitudeFrom, $latitudeTo, $longitudeTo, "K") . " Kilometers<br>";
+                                  $finaldist = $distt; */
                                 /* End */
                                 ?>
-                                <!-- <div class="left-div">
+                                <div class="left-div">
                                     <?php
-                                    if ($about_res[loginlats] != "") {
-                                        echo number_format($finaldist, 1) . ' km';
-                                    } else {
-                                        echo 'n/a';
-                                    }
+                                    /* if ($about_res[loginlats] != "") {
+                                      echo number_format($finaldist, 1) . ' km';
+                                      } else {
+                                      echo 'n/a';
+                                      } */
                                     ?>
-                                </div>	 -->						 	
+                                </div>							 	
                                 <div class="right-div">Last seen <?php
                                     $lastseen = $about_res[lastseeen];
                                     $dbtimezone = $about_res[timezone];
@@ -292,7 +291,8 @@ if (isset($_POST[submitrating])) {
                                                     Your browser does not support the video tag.
                                                 </video>
                                             </div>										
-                                        <?php }
+                                            <?php
+                                        }
                                     }
                                     ?>
                                 </div>
@@ -381,82 +381,91 @@ if (isset($_POST[submitrating])) {
                         </div>
                     </div>
                 </form>
-            <?php }
+                <?php
+            }
         }
         ?>
         <div class="review-main">
-            <h2>Review Comments</h2>
             <?php
             $revquery = mysql_query("SELECT * FROM freelancer_mmv_reviewratings WHERE reviewto='$clieid' ORDER BY date DESC");
-            while ($revres = mysql_fetch_array($revquery)) {
-                $givenby = $revres[reviewby];
-                $myrat = $revres[ratings];
-                $resquery = mysql_query("SELECT * FROM freelancer_mmv_member_master WHERE member_id='$givenby'");
-                $rev_res = mysql_fetch_array($resquery);
-                ?>
-                <div class="job-thumb favourite-box for-rating invite-box">
-                    <div class="job-row">
-                        <div class="favourite-holder">
-                            <?php if ($rev_res[image] == "") { ?>
-                                <img src="images/user.png" alt="user"/>
-                            <?php } else { ?>
-                                <img src="uploads/users/<?php echo $rev_res[image] ?>" alt="user"/>
-    <?php } ?>
-                        </div>
-                        <div class="favourite-dtl">
-                            <h3>
-                                <?php if ($givenby != $loginid) { ?>
-                                    <a href="viewclient.php?id=<?php echo $givenby ?>"><?php echo $rev_res[first_name] . ' ' . $rev_res[last_name] ?></a>
+
+            $totalnumber = mysql_num_rows($revquery);
+            if ($totalnumber > 0) {
+                echo '<h2>Review Comments</h2>';
+                while ($revres = mysql_fetch_array($revquery)) {
+                    $givenby = $revres[reviewby];
+                    $myrat = $revres[ratings];
+                    $resquery = mysql_query("SELECT * FROM freelancer_mmv_member_master WHERE member_id='$givenby'");
+                    $rev_res = mysql_fetch_array($resquery);
+                    ?>
+                    <div class="job-thumb favourite-box for-rating invite-box">
+                        <div class="job-row">
+                            <div class="favourite-holder">
+                                <?php if ($rev_res[image] == "") { ?>
+                                    <img src="images/user.png" alt="user"/>
                                 <?php } else { ?>
-                                    <a href="#"><?php echo $rev_res[first_name] . ' ' . $rev_res[last_name] ?></a>
+                                    <img src="uploads/users/<?php echo $rev_res[image] ?>" alt="user"/>
+                                <?php } ?>
+                            </div>
+                            <div class="favourite-dtl">
+                                <h3>
+                                    <?php if ($givenby != $loginid) { ?>
+                                        <a href="viewclient.php?id=<?php echo $givenby ?>"><?php echo $rev_res[first_name] . ' ' . $rev_res[last_name] ?></a>
+                                    <?php } else { ?>
+                                        <a href="#"><?php echo $rev_res[first_name] . ' ' . $rev_res[last_name] ?></a>
                                     <?php } ?>
-                                <div class="review-rating">	
-                                    <?php
-                                    if ($myrat == 1) {
-                                        echo '<img src="images/star-yellow.png" alt="star"/>
+                                    <div class="review-rating">	
+                                        <?php
+                                        if ($myrat == 1) {
+                                            echo '<img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>';
-                                    } else if ($myrat == 2) {
-                                        echo '<img src="images/star-yellow.png" alt="star"/>
+                                        } else if ($myrat == 2) {
+                                            echo '<img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>';
-                                    } else if ($myrat == 3) {
-                                        echo '<img src="images/star-yellow.png" alt="star"/>
+                                        } else if ($myrat == 3) {
+                                            echo '<img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>';
-                                    } else if ($myrat == 4) {
-                                        echo '<img src="images/star-yellow.png" alt="star"/>
+                                        } else if ($myrat == 4) {
+                                            echo '<img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>';
-                                    } else if ($myrat == 5) {
-                                        echo '<img src="images/star-yellow.png" alt="star"/>
+                                        } else if ($myrat == 5) {
+                                            echo '<img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>
 										 <img src="images/star-yellow.png" alt="star"/>';
-                                    } else {
-                                        echo '<img src="images/star-grey.png" alt="star"/>
+                                        } else {
+                                            echo '<img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>
 										 <img src="images/star-grey.png" alt="star"/>';
-                                    }
-                                    ?>									
-                                </div>
-                            </h3>					 
+                                        }
+                                        ?>									
+                                    </div>
+                                </h3>					 
+                            </div>
                         </div>
+                        <p><?php echo $revres[reviewdesc] ?></p>				
                     </div>
-                    <p><?php echo $revres[reviewdesc] ?></p>				
-                </div>
-<?php } ?>
+                    <?php
+                }
+            } else {
+                echo '<h5>No Reviews yet!</h5>';
+            }
+            ?>
         </div>
     </div>
 </div>

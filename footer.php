@@ -28,7 +28,6 @@ $freelanceserviceid = $res[16];
     .loged-user-title-sub{
         color:whit !important;
     }
-
     .add-account .loged-user-img {
         display:none !important;
     </style>
@@ -57,7 +56,6 @@ $freelanceserviceid = $res[16];
                         <ul class="subuser">
                             <?php
                             $sess = (array_unique($_SESSION['SESS_MEMBER_ID']));
-
                             foreach (($sess) as $key => $uservalue) {
                                 $query2 = mysql_query("SELECT * FROM freelancer_mmv_member_master WHERE member_id='$uservalue'");
                                 $res2 = mysql_fetch_array($query2);
@@ -109,12 +107,12 @@ $freelanceserviceid = $res[16];
                                     <li><a href="veryfied-user.php"><span class="menu-icon"><img src="images/icon-verified.png" alt="Verified User" /></span> Verified User</a></li>
                                 <?php } ?>
                             <?php } else { ?>
-                                <li><a href="#" data-fancybox data-type="inline" data-options='{"closeClickOutside":false,"touch":false}' data-src="#loginPopup"><span class="menu-icon"><img src="images/icon-upload-profile.png" alt="Profile" /></span> Edit Profile </a></li>
-                                <li><a href="#" data-fancybox data-type="inline" data-options='{"closeClickOutside":false,"touch":false}' data-src="#loginPopup"><span class="menu-icon"><img src="images/icon-password.png" alt="Change Password" /></span> Change Password </a></li>
+                                <li><a data-type="profile.php" href="javascript:void(0);" class="border_post loginpopup"><span class="menu-icon"><img src="images/icon-upload-profile.png" alt="Profile" /></span> Edit Profile </a></li>
+                                <li><a data-type="change-password.php" href="javascript:void(0);" class="border_post loginpopup"><span class="menu-icon"><img src="images/icon-password.png" alt="Change Password" /></span> Change Password </a></li>
                                 <!--<li><a href="#" data-fancybox data-type="inline" data-options='{"closeClickOutside":false,"touch":false}' data-src="#loginPopup"><span class="menu-icon"><img src="images/icon-buy-tokens.png" alt="Buy Tokens" /></span> Buy Tokens</a></li>
                                 <li><a href="#" data-fancybox data-type="inline" data-options='{"closeClickOutside":false,"touch":false}' data-src="#loginPopup"><span class="menu-icon"><img src="images/icon-tokens-balance.png" alt="Tokens balance" /></span> Tokens balance</a></li>-->
-                                <li><a href="#" data-fancybox data-type="inline" data-options='{"closeClickOutside":false,"touch":false}' data-src="#loginPopup"><span class="menu-icon"><img src="images/icon-feedback.png" alt="Feedback / Report" /></span> Feedback / Report</a></li>
-                                <li><a href="#" data-fancybox data-type="inline" data-options='{"closeClickOutside":false,"touch":false}' data-src="#loginPopup"><span class="menu-icon"><img src="images/icon-verified.png" alt="Verified User" /></span> Verified User</a></li>
+                                <li><a data-type="feedback.php" href="javascript:void(0);" class="border_post loginpopup"><span class="menu-icon"><img src="images/icon-feedback.png" alt="Feedback / Report" /></span> Feedback / Report</a></li>
+                                <li><a data-type="veryfied-user.php" href="javascript:void(0);" class="border_post loginpopup"><span class="menu-icon"><img src="images/icon-verified.png" alt="Verified User" /></span> Verified User</a></li>
                             <?php } ?>
                             <li><a href="about-us.php"><span class="menu-icon"><img src="images/icon-about-us.png" alt="About Us" /></span> About Us</a></li>
                             <li>
@@ -149,9 +147,9 @@ $freelanceserviceid = $res[16];
                 <div class="photo-job-video">
                     <div class="row" style="margin-bottom: 0px;">
                         <?php if ($loginid == "") { ?>
-                            <div class="col-4 uploader"><a data-fancybox data-type="inline" data-src="#loginPopup" href="javascript:void(0);">Post a photo</a></div>
-                            <div class="col-4"><a data-fancybox data-type="inline" data-src="#loginPopup" href="javascript:void(0);" class="post-a-job">Post a job</a></div>
-                            <div class="col-4 uploader"><a href="javascript:void(0);" data-fancybox data-type="inline" data-src="#loginPopup">Post a Video</a></div>
+                            <div class="col-4 uploader"><a data-type="postanimage.php" href="javascript:void(0);" class="border_post loginpopup">Post a photo</a></div>
+                            <div class="col-4"><a data-type="post-a-job.php" href="javascript:void(0);" class="border_post loginpopup">Post a job</a></div>
+                            <div class="col-4 uploader"><a data-type="postvideo" href="javascript:void(0);" class="border_post loginpopup">Post a Video</a></div>
                         <?php } else { ?>
 
                             <div class="col-4 uploader"><a href="postanimage.php">Post a photo</a><div class="fileContainer"></div>
@@ -212,6 +210,7 @@ $freelanceserviceid = $res[16];
                     <input type="hidden" name="now" id="now" value="<?php echo $now ?>">
                     <input type="hidden" name="lats" id="lats" value="">
                     <input type="hidden" name="long" id="long" value="">
+                    <input type="hidden" name="redirection" id="login_redirection" value="">
                     <div class="form-group">
                         <input type="text" name="lusername" required class="form-control text-align-center inputbg" placeholder="Email address" id="lusername">
                     </div>
@@ -292,6 +291,7 @@ $freelanceserviceid = $res[16];
                     top: -40px !important;
                 }
             </style>
+            <a data-fancybox="" data-type="inline" data-src="#videoPopup" href="javascript:void(0);" class="videoPopupLink none"></a>
             <div id="videoPopup" class="popupbox text-align-center">
                 <div class="login-main" style="padding: 10px 45px !important;
                      top: 6px;
@@ -592,8 +592,6 @@ $freelanceserviceid = $res[16];
             height: 350
         }
     });
-
-
     $('#upload').on('change', function () {
         var reader = new FileReader();
         reader.onload = function (e) {
@@ -602,12 +600,9 @@ $freelanceserviceid = $res[16];
             }).then(function () {
                 console.log('jQuery bind complete');
             });
-
         }
         reader.readAsDataURL(this.files[0]);
     });
-
-
     $('.upload-result').on('click', function (ev) {
         var video = $('#videolink').val();
         var countr = $('#pcountry').val();
@@ -634,7 +629,6 @@ $freelanceserviceid = $res[16];
             });
         });
     });
-
 </script>
 
 <script type="text/javascript">
@@ -651,16 +645,13 @@ $freelanceserviceid = $res[16];
     });
 </script>
 <script>
-
     function myFunction(data) {
         window.location.href = "paypal.php?type=1&uid=<?php echo $loginid; ?>&imgid=" + data;
         alert('Please wait..!!');
     }
-
     function myFunction2() {
         window.location.href = "index.php?status=success";
     }
-
     $("#selectcountry").change(function () {
         var country = $("#selectcountry").val();
         $.ajax({
@@ -673,7 +664,6 @@ $freelanceserviceid = $res[16];
             }
         });
     });
-
     /*$(document).ready(function() {
      $('#post-photo-upload').on('change', function(){
      $("#imageform").ajaxForm({
@@ -688,7 +678,6 @@ $freelanceserviceid = $res[16];
      }).submit();
      });
      });*/
-
     /*$(document).ready(function() {
      $('#post-video-upload').on('change', function(){
      $("#imageform").ajaxForm({
@@ -714,7 +703,6 @@ $freelanceserviceid = $res[16];
      }).submit();
      });
      });*/
-
 </script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/rating.js"></script>
@@ -731,7 +719,6 @@ $freelanceserviceid = $res[16];
 <script type="text/javascript" src="js/custom.js"></script>
 <!--<script type="text/javascript" src="js/geoLocation.js"></script>-->
 <script>
-
     $(window).load(function () {
         "use strict";
         adjustWidthHeight();
@@ -813,23 +800,18 @@ $freelanceserviceid = $res[16];
             $('.vsuccess').trigger('click');
 <?php } ?>
     });
-
 </script>
 <script type="text/javascript">
-
     function check_val() {
         var wordInput = document.getElementById("text").value.toLowerCase();
         var wordInput1 = document.getElementById("texts").value.toLowerCase();
         var wordInput2 = document.getElementById("textss").value.toLowerCase();
-
         // split the words by spaces (" ")
         var arr = wordInput.split(" ");
         var arr1 = wordInput1.split(" ");
         var arr2 = wordInput2.split(" ");
-
         // bad words to look for
         var badWords = ['sex', 'ass', 'fuck', 'shit', 'asshole', 'cunt', 'fag', 'fuk', 'fck', 'fcuk', 'assfuck', 'assfucker', 'fucker', 'motherfucker', 'asscock', 'asshead', 'asslicker', 'asslick', 'assnigger', 'nigger', 'asssucker', 'bastard', 'bitch', 'bitchtits', 'bitches', 'bitch', 'brotherfucker', 'bullshit', 'bumblefuck', 'buttfucka', 'fucka', 'buttfucker', 'buttfucka', 'fagbag', 'fagfucker', 'faggit', 'faggot', 'faggotcock', 'fagtard', 'fatass', 'fuckoff', 'fuckstick', 'fucktard', 'fuckwad', 'fuckwit', 'dick', 'dickfuck', 'dickhead', 'dickjuice', 'dickmilk', 'doochbag', 'douchebag', 'douche', 'dickweed', 'dyke', 'dumbass', 'dumass', 'fuckboy', 'fuckbag', 'gayass', 'gayfuck', 'gaylord', 'gaytard', 'nigga', 'niggers', 'niglet', 'paki', 'piss', 'prick', 'pussy', 'poontang', 'poonany', 'porchmonkey', 'porchmonkey', 'poon', 'queer', 'queerbait', 'queerhole', 'queef', 'renob', 'rimjob', 'ruski', 'sandnigger', 'sandnigger', 'schlong', 'shitass', 'shitbag', 'shitbagger', 'shitbreath', 'chinc', 'carpetmuncher', 'chink', 'choad', 'clitface', 'clusterfuck', 'cockass', 'cockbite', 'cockface', 'skank', 'skeet', 'skullfuck', 'slut', 'slutbag', 'splooge', 'twatlips', 'twat', 'twats', 'twatwaffle', 'vaj', 'vajayjay', 'va-j-j', 'wank', 'wankjob', 'wetback', 'whore', 'whorebag', 'whoreface', 'horny', 'viagra', 'porn', 'testicles', 'butt', 'penis', 'dick', 'tits', 'suck', 'fart', 'porno', 'nude', 'nudes', 'nipple'];
-
         var index, totalWordAmount = 0, totalWordsFoundList = '';
         for (index = 0; index < arr.length; ++index) {
             if (jQuery.inArray(arr[index], badWords) > -1) {
@@ -856,34 +838,26 @@ $freelanceserviceid = $res[16];
             }
         }
     }
-
 //video size
 //reference
 //https://developer.mozilla.org/en-US/docs/Web/API/FileReader/
 //http://community.sitepoint.com/t/get-video-duration-before-upload/30623/4
-
 //set your time on MaxTime like minutes:seconds
 //if you wanna hours just replace below line on line 25
 //var time = hours+':'minutes + ':' + seconds;
-
 //maxTime = "01:00:00"; //if add a hours
-
     var videoMaxTime = "01:00"; //minutes:seconds   //video
     var audioMaxTime = "05:00"; //minutes:seconds   //audio
     var uploadMax = 3145728000; //bytes
-
 //for seconds to time
     function secondsToTime(in_seconds) {
-
         var time = '';
         in_seconds = parseFloat(in_seconds.toFixed(2));
-
         var hours = Math.floor(in_seconds / 3600);
         var minutes = Math.floor((in_seconds - (hours * 3600)) / 60);
         var seconds = in_seconds - (hours * 3600) - (minutes * 60);
         //seconds = Math.floor( seconds );
         seconds = seconds.toFixed(0);
-
         if (hours < 10) {
             hours = "0" + hours;
         }
@@ -894,30 +868,22 @@ $freelanceserviceid = $res[16];
             seconds = "0" + seconds;
         }
         var time = minutes + ':' + seconds;
-
         return time;
-
     }
-
     function checkFileDuration() {
-
         var file = document.querySelector('input[type=file]').files[0];
         var reader = new FileReader();
         var fileSize = file.size;
-
-
         if (file.type == "image/jpg" || file.type == "image/jpeg" || file.type == "image/png") {
             alert('Only Videos are allowed to upload!!');
             $('#videoimg').val('');
         } else {
-
             if (fileSize > uploadMax) {
                 alert('file too large');
                 $('#vid').val("");
             } else {
                 $('#pross').show();
                 reader.onload = function (e) {
-
                     if (file.type == "video/mp4" || file.type == "video/MOV" || file.type == "video/mov") {
                         var videoElement = document.createElement('video');
                         videoElement.src = e.target.result;
@@ -933,7 +899,6 @@ $freelanceserviceid = $res[16];
                             }
                         }, 500)
                     } else if (file.type == "audio/mpeg" || file.type == "audio/wav" || file.type == "audio/ogg") {
-
                         var audioElement = document.createElement('audio');
                         audioElement.src = e.target.result;
                         var timer = setInterval(function () {
@@ -950,31 +915,24 @@ $freelanceserviceid = $res[16];
                     } else {
                         var timer = setInterval(function () {
                             if (file) {
-
                                 //alert('invaild File')
                                 $('#vid').val("");
                                 $('#pross').hide();
                                 clearInterval(timer);
                             }
                         }, 500)
-
                     }
-
                 };
                 if (file) {
                     reader.readAsDataURL(file);
-
                 } else {
                     alert('nofile');
                 }
-
             }
         }
     }
-
     function getLocation() {
         var msg;
-
         /**
          first, test for feature support
          **/
@@ -989,7 +947,6 @@ $freelanceserviceid = $res[16];
             outputResult(msg); // output error message
             $('.pure-button').removeClass('pure-button-primary').addClass('pure-button-success'); // change button style
         }
-
         /***
          requestLocation() returns a message, either the users coordinates, or an error message
          **/
@@ -998,7 +955,6 @@ $freelanceserviceid = $res[16];
              getCurrentPosition() below accepts 3 arguments:
              a success callback (required), an error callback  (optional), and a set of options (optional)
              **/
-
             var options = {
                 // enableHighAccuracy = should the device take extra time or power to return a really accurate result, or should it give you the quick (but less accurate) answer?
                 enableHighAccuracy: false,
@@ -1007,10 +963,8 @@ $freelanceserviceid = $res[16];
                 // maximumAge = maximum age for a possible previously-cached position. 0 = must return the current position, not a prior cached position
                 maximumAge: 0
             };
-
             // call getCurrentPosition()
             navigator.geolocation.getCurrentPosition(success, error, options);
-
             navigator.geolocation.watchPosition(function (position) {
                 console.log("i'm tracking you!");
 <?php $_SESSION['allowLocation'] = 1; ?>
@@ -1020,7 +974,6 @@ $freelanceserviceid = $res[16];
                         if (error.code == error.PERMISSION_DENIED)
                             console.log("you denied me :-(");
                     });
-
             // upon success, do this
             function success(pos) {
                 // get longitude and latitude from the position object passed in
@@ -1030,14 +983,11 @@ $freelanceserviceid = $res[16];
                 msg = 'You appear to be at longitude: ' + lng + ' and latitude: ' + lat + '<img src="https://maps.googleapis.com/maps/api/staticmap?zoom=15&size=300x300&maptype=roadmap&markers=color:red%7Clabel:A%7C' + lat + ',' + lng + '&sensor=false">';
                 outputResult(msg); // output message
                 $('.pure-button').removeClass('pure-button-primary').addClass('pure-button-success'); // change button style
-
                 document.getElementById("lats").value = lat;
                 document.getElementById("long").value = lng;
                 document.cookie = "mylatitude=" + lat;
                 document.cookie = "mylongitude=" + lng;
-
             }
-
             // upon error, do this
             function error(err) {
                 // return the error message
@@ -1046,7 +996,6 @@ $freelanceserviceid = $res[16];
                 $('.pure-button').removeClass('pure-button-primary').addClass('pure-button-error'); // change button style
             }
         } // end requestLocation();
-
         /***
          outputResult() inserts msg into the DOM
          **/
@@ -1055,26 +1004,20 @@ $freelanceserviceid = $res[16];
             //alert(msg);
         }
     } // end getLocation()
-
 // attach getLocation() to button click
     $('.pure-button').on('click', function () {
         // show spinner while getlocation() does its thing
         $('.result').html('<i class="fa fa-spinner fa-spin"></i>');
-
     });
-
     getLocation();
-
 </script>
 <script type="text/javascript">
     $(window).load(function () {
         $(".loader").fadeOut("slow");
     });
-
     $('img').bind('contextmenu', function (e) {
         return false;
     });
-
     $('.sub-link-list a').click(function (e) {
         var sid = $(this).attr('id');
         $.ajax({
@@ -1095,28 +1038,30 @@ $freelanceserviceid = $res[16];
         $("#ip-ios").AnyPicker(
                 {
                     mode: "datetime",
-
                     dateTimeFormat: "d MMMM yyyy hh:mm AA",
-
                     inputChangeEvent: "onChange",
-
                     onChange: function (iRow, iComp, oSelectedValues)
                     {
                         console.log("Changed Value : " + iRow + " " + iComp + " " + oSelectedValues);
                     },
-
                     theme: "iOS" // "Default", "iOS", "Android", "Windows"
                 });
     });
-
     if (window.location.href.indexOf("#") > -1) {
         var type = window.location.hash.substr(1);
         console.log(type)
         if (type == 'login') {
             $('#login_btn').trigger("click");
+        } else if (type == 'videoPopup') {
+            $('.videoPopupLink').trigger('click');
         }
     }
 
+    $(document).on('click', '.loginpopup', function () {
+        var redirection = $(this).attr('data-type');
+        $('#login_redirection').val(redirection)
+        $('.loginPopupLink').trigger('click');
+    })
     $(document).on('keyup', '#description_textarea', function () {
         var ch = $(this).val();
         if (ch != '') {
@@ -1130,13 +1075,11 @@ $freelanceserviceid = $res[16];
 </script>
 <?php
 $url = "https://" . $_SERVER[HTTP_HOST] . strtok($_SERVER["REQUEST_URI"], '?');
-
 if (isset($_POST[destroy])) {
     unset($_SESSION['SESS_CAT_ID']);
     unset($_SESSION['SESS_SUBCAT_ID']);
     unset($_SESSION['SESS_CAT_NAME']);
     unset($_SESSION['countryid']);
-
     if (strpos($pagename, 'listing.php') == 'listing.php' || strpos($pagename, 'hire.php') == 'hire.php' || strpos($pagename, 'index.php') == 'index.php') {
         $actual_link = $url;
     } else {
