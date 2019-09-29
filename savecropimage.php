@@ -27,7 +27,7 @@ $freelanceserviceid = $res[16];
 
 $file_to_upload = $_FILES['croppedImage']['tmp_name'];
 $ext = end((explode(".", $name)));
-$file_name = time() . '.' . $ext;
+$file_name = time() . '.png';
 $blocation = "uploads/images/" . $file_name;
 //move_uploaded_file($file_to_upload, 'uploads/images/'.$file_name);
 compress_image($file_to_upload, 'uploads/images/' . $file_name, 40);

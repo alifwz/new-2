@@ -1,2291 +1,2283 @@
-@media screen and (min-width:781px) and (max-width:1200px) {
-
-	.single-row{height:80px  }
-
-	.double-row{height: 110px  } 
-
-}
-
-
-
-
-
-@media screen and (min-width:768px) and (max-width:1023px) {
-
-	.our-story { width:600px;margin:0 auto}
-
-	.blacking-wing-main .button {font-size:25px}
-
-}
-
-@media screen and (min-width:10px) and (max-width:430px) {
-
-	.main,.container,.bottom-holder,.wrapper,.menu-wrapper,.meet-invite{width:100%}
-
-	.menu-wrapper.active{width:100%;}
-
-}
-
-
-
-/*@media screen and (min-width:576px) and (max-width:780px) {*/
-
-@media screen and (max-width:430px) {
-
-	.review-popup{width:100%;padding:15px; }
-
-	.popupbox 			{width:95%;padding:15px}
-
-	/*.form-control 	{font-size:25px;padding:20px 10px;line-height:30px;}
-
-	.select-style select,.more-talent{padding:15px 10px;}
-
-	.notification-links td a,.notify-title{font-size:22px;}
-
-	.update-location{padding:12px 0}	
-
-	.date-time 	{font-size:23px;padding:0px 0px 3px 0}
-
-	.job-thumb 	{margin-bottom:20px}
-
-	.invite-box .rating-review .button{font-size:22px}
-
-	.location-main{padding:20px 0px;}
-
-	.location-pin{width:35px; }
-
-	.send-mesage{font-size:20px;line-height:22px;padding:10px 25px}
-
-	.location-address{margin:0 130px 0 60px }
-
-	.location-address p{font-size:22px;line-height:25px;}
-
-	.wordaapp{font-size:19px;margin:10px 0 10px 60px;}
-
-	.butchers{font-size:19px;padding:10px 0 10px 60px}
-
-	
-
-	.type-message-main{padding:7px 0px}
-
-	.send-btn 	{width:61px;height:61px;padding:5px 10px 6px 14px}
-
-	.send-btn img {width:100%}
-
-	.camera-link, .attach-link{width:30px;margin:4px 20px 0 0}
-
-	.camera-link{margin-top:7px }
-
-	.camera-link img, .attach-link img{width:100%}
-
-	.type-message{margin:0 70px 0 0;padding:10px 0;height: auto}
-
-	.input-msg{font-size:22px;padding:7px 0 7px 20px}
-
-	.type-input-div{margin:0 115px 0 0}
-
-	.for-rating .favourite-detail p{line-height:40px}
-
-	.single-row{height:80px}
-
-	.double-row{height: 110px}	
-
-	
-
-	.loged-user {padding:15px 20px}
-
-	.loged-user-img,.loged-user-img div{width:90px;height:90px}
-
-	.loged-user-title{font-size:30px;margin-left:115px;padding:25px 50px 25px 0px;background-size:35px auto}
-
-	.menu-links {padding:20px 0px 20px 0px}
-
-	.menu-links li .menu-icon{width:35px;}
-
-	.menu-links li a{padding:10px 30px 10px 45px;font-size:25px}
-
-	.subuser .loged{margin:25px 0 0px 0}
-
-	
-
-	.about-main h2{font-size:30px;}
-
-	.about-main p{font-size:22px;line-height:27px  }
-
-	
-
-	.num-box 	{width:85px;height:50px;}
-
-	
-
-	
-
-	.inv-pro-row 		{font-size:20px;padding:7px 0px 7px 0px;line-height:25px }
-
-	.inv-pro-row label 	{ }
-
-	.inv-pro-row .prfl-dtl{ }
-
-	.feedback-div h3{width:85% }*/
-
-}
-
-/*@media screen and (min-width:576px) and (max-width:767px) {*/
-
-@media screen and (min-width:414px) {
-
-	.select-style select{font-size:22px}
-
-	.view-website{font-size:20px}
-
-	.selectric .label{line-height:24px;font-size:20px;padding-top:17px;padding-bottom:17px}
-
-	.filter-link{line-height:24px;font-size:21px;background-size:20px auto;padding-top:17px;padding-bottom:17px}
-
-	.filter-link2{line-height:24px;font-size:21px;background-size:20px auto;padding-top:17px;padding-bottom:17px}
-
-	.selectric .button{width:20px}
-
-	.left-select .selectric-items{width:200px!important; }
-
-	.selectric-items li{line-height:19px;font-size:17px;padding:10px }
-
-	.user-div{width:160px;}
-
-	.user-img,.user-div .MultiFile-label span{height:160px}	
-
-	.bell-div{width:30px;top:5px}
-
-	
-
-	.listing-row h3{font-size:25px;}
-
-	.listing-div span{font-size:14px;padding:0px 15px;  }
-
-	.listing-div .last-seen{font-size:19px; }
-
-	.listing-div{background-size:auto 20px}
-
-	
-
-	.blacking-wing-main .favourite-dtl h3{padding-bottom:10px }
-
-	.blacking-wing-main .favourite-dtl h3 .km{top:2px }
-
-	.blacking-wing-main .rating-div {margin-bottom:13px;}
-
-	.blacking-wing-main .reviews-btn{font-size:22px; padding:7px 40px 7px 40px;line-height:25px }
-
-	
-
-	.photo-video-title{padding-bottom:10px}
-
-	.uploadthumb{margin:0px 2% 2% 0;width:31.3%; }
-
-	#photo-upload{width:31.3%;height:160px}
-
-	
-
-	.reviews-profile-verified .rating-div {margin-bottom:15px;margin-top:0px }
-
-	.reviews-profile-verified .rating-div img{width:28px;}
-
-	.three-btns-div .button{font-size:20px;padding:15px 0;width:119px;margin-right:2px}
-
-	
-
-	.blacking-wing-main .user-div{width:150px;height:150px}
-
-	.blacking-wing-main .user-div .MultiFile-label span{height:150px}
-
-	.blacking-wing-main .favourite-dtl{margin:0 0 0 175px}
-
-	.prfl-div label,.div-row .right-div{font-size:22px;}
-
-	.prfl-div .prfl-dtl,.div-row .left-div, .cv,.div-row .left-div, .cv{font-size:24px;}
-
-	.cv-dtl p 	{font-size:20px;}
-
-	.cv-dtl{padding:18px 30px}
-
-	.job-row h2 	{font-size:25px;}
-
-	
-
-	.for-rating .favourite-holder{width:85px;height:85px;}
-
-	.for-rating .favourite-dtl {margin: 0 0 0 110px;}
-
-	.for-rating .favourite-dtl h3{padding:21px 0 5px 0 }
-
-	.for-rating .rating-div{top:20px; }
-
-	.for-rating .rating-div img{width:23px; }
-
-	.for-rating .rating-div .number{font-size:16px; }
-
-	.for-rating .favourite-detail p{line-height:35px }
-
-	.budget-div,.duration-div{font-size:26px;}
-
-	
-
-	.photo-job-video{height:auto;bottom:60px}
-
-	.photo-job-video .row div{padding:16px 0}
-
-	.photo-job-video a{font-size:18px;padding:2px 0}
-
-	.photo-job-video a.post-a-job {border-left:2px dashed #999999;border-right:2px dashed #999999;}
-
-	a.post-a-question{ border-left: 2px dashed #999999;padding: 2px 0; }
-	.hr-border{border-bottom: 2px dashed #999999; width: 100%; display: inline-block; height: 0;}
-	
-
-	.for-rating .favourite-dtl p{font-size:19px;line-height:25px;padding-top:0px;  }
-
-	.bottom-holder{height:60px}
-
-	.home-link, .menu-link{width:35px;} 
-
-	.home-link 	{top:5px }
-
-	.work-link, .hire-link{font-size:20px;height:45px;line-height:37px;width:85px;}
-
-	.work-link{left:20%;}
-
-	.hire-link{right:20%;}
-
-	.plus-link 		{height:45px;line-height:42px;width:50px;margin-left:-20px;font-size:40px}
-
-	.menu-link 	{top:8px}
-
-	.meet-invite 	{height:60px;bottom:60px}
-
-	.meet-invite a {padding:10px 0 7px 0 }
-
-	.meet-invite a .meet-icon{height:22px;}
-
-	.meet-invite a span{font-size:18px; }
-
-	.meet-invite a span.mi-title{line-height:23px;}
-
-	
-
-	.make-profile 		{padding:50px 60px 20px 60px;}
-
-	.map-icon 			{width:100px;}	
-
-	.make-profile-div 	{padding:20px 0 30px 0; }
-
-	.make-profile-div .button{font-size:25px;padding-left:70px;padding-right:70px;display:block;white-space:nowrap}
-
-	.skip-div a			{font-size:25px;}	
-
-	.fltr-title  		{font-size:18px;}	
-
-	 
-
-	.work-hire-main 	{padding:7px 0}
-
-	.work-hire-main .container{}
-
-}
-
-@media screen and (min-width:480px) and (max-width:639px) {
-
-}
-
-@media screen and (max-width:767px){
-
-	.main{box-shadow:0 0px 0px rgba(0,0,0,0)}
-
-}
-
-@media screen and (min-width:768px){	
-
-	/*.menu-main	 		{width:600px;}*/
-
-	header.active .sub-header,.main.active,.bottom-holder.active .sub-bottom-bar,.meet-invite.active .meet-invite-sub{transform:translateX(-74%)}	
-
-}
-
-@media screen and (min-width:414px) and (max-width:767px) {
-
- 	.menu-main 	{width:75%;}	
-
-	.main.active{transform:translateX(-75%)}
-
-	header.active .sub-header,.main.active,.bottom-holder.active .sub-bottom-bar,.meet-invite.active .meet-invite-sub{transform:translateX(-75%)}	
-
-}
-
-@media screen and (min-width:300px) and (max-width:413px) {
-
-	.menu-main 	{width:84%;}	
-
-	header.active .sub-header,.main.active,.bottom-holder.active .sub-bottom-bar,.meet-invite.active .meet-invite-sub{transform:translateX(-80%)}	
-
- }
-
-@media screen and (min-width:300px) and (max-width:375px) {
-
-	.main 	{padding-bottom:85px;}	
-
-}
-
-/*@media screen and (min-width:300px) and (max-width:575px) {*/
-
-@media screen and (min-width:300px){
-
-	.selectric-items{left:-10px}
-
-	.selectric-items {top:120%;}
-
-	.selectric-items::before{top:-12px;width:20px;height:12px;}
-
-	.left-select .selectric-items{width:200px!important; }
-
-	.left-select {width:43%;}
-
-	.selectric .label,.filter-link{font-size:16px;line-height:20px;height:auto;padding-bottom:10px;padding-top:10px}
-
-	.selectric .label,.filter-link2{font-size:18px;line-height:20px;height:auto;padding-bottom:10px;padding-top:10px}
-
-	.filter-link {padding-right:25px}
-
-	.filter-link2 {padding-right:25px}
-
-	.triangle-div span{height:12px;margin-right:43px}
-
-	header .container{padding-top:0px;padding-bottom:0px  }
-
-	.form-control{font-size:22px;line-height:27px;padding:15px 10px  }
-
-	.single-row{height:60px  }
-
-	.double-row{height: 115px  }
-
-	.write-feedback{height:200px;overflow:auto }
-
-	.form-main 	{padding-top:20px}	
-
-	.user-title {padding:25px 0 20px 0;}
-
-	.talent-textarea{height:150px }
-
-	
-
-	.messages-chat{padding:15px 0}
-
-	.arrow-left {width:35px;margin-right:10px }
-
-	.chat 		{padding:10px 5px 30px 5px}
-
-	.bubble 	{padding:15px 20px 40px 20px}
-
-	.me 		{margin:0px 20% 0px 0px}
-
-	.you 		{margin:0px 0px 0px 20%}
-
-	.bubble p 	{font-size:18px;line-height:normal}
-
-	.msg-dt-tm 	{font-size:16px;}
-
-	
-
-	.type-message-main{padding:7px 0px}
-
-	.send-btn 	{width:45px;height:45px;padding:5px 7px 6px 10px}
-
-	.send-btn img {width:100%}
-
-	.camera-link, .attach-link{width:23px;margin:5px 13px 0 0}
-
-	.camera-link{margin-top:7px }
-
-	.camera-link img, .attach-link img{width:100%}
-
-	.type-message{margin:0 50px 0 0;padding:5px 0;height:45px }
-
-	.input-msg{font-size:18px;padding:5px 0 5px 15px}
-
-	.type-input-div{margin:0 75px 0 0}
-
-	.messages-header h3{font-size:20px;padding-left:10px}
-
-	.messages-header h3 span{font-size:15px}
-
-
-
-	.listing-row 	{padding:0px 0 10px 10px}
-
-	.listing-row h3 {font-size:20px;}
-
-	.listing-div span{font-size:14px;padding:0px 5px;line-height:15px}
-
-	.listing-div .last-seen{font-size:14px;}
-
-	.listing-div 	{background-size:auto 15px}
-
-	.listing-div span::after{right:-2px;top:2px;height:10px}
-
-	.listing-div span.last-seen::after{right:-4px}
-
-	
-
-	.three-btns-div .button{font-size:20px;padding:15px 0;width:110px}
-
-	
-
-	.photo-job-video{height:auto;bottom:50px}
-
-	.photo-job-video .row div{padding:15px 0}
-
-	.photo-job-video a{font-size:17px;}
-
-	
-
-	.photo-job-video a.post-a-job{border-left:2px dashed #999999;border-right:2px dashed #999999;padding:2px 0}
-
-	.for-rating .favourite-dtl p{font-size:17px;line-height:24px }
-
-	
-
-	.select-all{margin-left:25px;font-size:28px}
-
-	.km-left		{font-size:16px;}
-
-	.last-seen-right{font-size:14px;}
-
-	
-
-	.invite-main 	{padding:15px 15px 50px 15px}
-
-	.invite-main h2 {padding-top:0px;font-size:25px;}
-
-	.invite-box .favourite-dtl h3{padding-top:0px}
-
-	.rating-review .button{font-size:16px;padding:5px 10px}
-
-	.filter-box 	{padding:10px 0}
-
-	.sub-link-title,.sub-link-list a{white-space:normal;}
-
-	
-
-	.subuser .loged{margin:20px 0 0px 0}
-
-	
-
-	.loged-user 	{box-shadow:0 3px 3px rgba(0,0,0,0.18)}
-
-	
-
-	.MultiFile-remove{font-size:25px;width:25px;height:25px;}
-
-	.MultiFile-title {font-size:18px;}
-
-	
-
-	#TermsCondition 	{padding:0 5px }
-
-	#TermsCondition input{}
-
-	#TermsCondition h2 	{font-size:18px;}
-
-	#TermsCondition h3 	{font-size:15px;padding-bottom:0px;}
-
-	#TermsCondition p 	{font-size:13px;line-height:17px;}
-
-	
-
-	.update-location{font-size:25px;}
-
-	.notification {padding:3px 7px;}
-
-}
-
-/*@media screen and (min-width:414px) and (max-width:575px){*/
-
-@media screen and (min-width:414px){
-
-	/*header .container{padding-top:18px;padding-bottom:18px}*/
-
-	.selectric-items li {line-height:19px;font-size:16px;padding:10px;}
-
-	.selectric .label,.filter-link{font-size:18px;line-height:22px;padding-bottom:10px;padding-top:10px}
-
-	.selectric .label,.filter-link2{font-size:18px;line-height:22px;padding-bottom:10px;padding-top:10px}
-
-	.filter-link{background-size:15px auto;}
-
-	.filter-link2{background-size:15px auto;}
-
-	.selectric .button{background-size:17px auto;}
-
-	.bell-div 	{width:20px;margin-left:-10px;top:10px;}
-
-	.view-website {font-size:17px;}
-
-	.job-posted-user{font-size:15px;line-height:16px}
-
-	.job-title 	{font-size:13px;}
-	.job-title a{line-height: 16px;font-size:13px;display:inline-block }
-
-	.likes-div	{font-size:18px;}
-
-	.fltr-icon img{height:35px}
-
-	.filter-box {padding:10px 0;}
-
-	.fltr-title {font-size:15px;padding-top:5px}
-
-	
-
-	.bottom-holder{height:55px;}
-
-	.work-hire-main {padding:12px 0}
-
-	.work-hire-main .container{height:31px }
-
-	.home-link 	{left:5%;top:0px;width:30px;   }
-
-	.menu-link{width:21px;top:2px }
-
-	.work-link,.hire-link{padding:0px 0px 0px 0px;font-size:19px;height:31px;width:72px;border-radius:10px;line-height:31px}
-
-	.work-link 	{left:19%;}
-
-	.hire-link	{right:19%;}
-
-	.menu-link 	{right:5%;top:4px}
-
-	.plus-link 	{width:33px;height:30px;margin-left:-16px;font-size:25px;line-height:27px}
-
-	h2 			{font-size:27px }
-
-	.button 	{font-size:25px }
-
-	.width325 	{width:230px }
-
-	.plus-sign 	{width:35px;height:35px;font-size:30px;margin-left:-17px;bottom:-17px;line-height:35px }
-
-	.user-div	{width:160px;}
-
-	.user-img,.user-div .MultiFile-label span{height:160px}
-
-	.user-title {font-size:28px;}
-
-	.select-style select,.talent-textarea{padding:10px 34px 10px 8px;font-size:18px;text-overflow:ellipsis; }
-	.form-control {padding:10px 34px 10px 8px;font-size:18px;line-height:27px;}
-
-	/*.select-style select{padding: 10px 8px;!important}*/
-
-	.left-select .select-style select{ padding: 10px 8px 10px 0px; font-size: 18px;}
-
-	.left-select .select-style{margin:0px;}
-
-	.select-style{background-position:93% 47%;background-size:18px auto}
-
-	#other-test {width:150px;height:150px;/*background-size:53px auto*/}
-
-	#other-test:hover{/*background-size:53px auto*/}
-
-	.notify-title {font-size:20px;}
-
-	.notification-links td a{padding-bottom:9px;}
-
-	.notification-links td a img,.notification-links td a .tabs-title{height:30px;}
-
-	.notification-links td a img{margin:0 15px}
-
-	.notification-links td a .tabs-title{margin:0 0 0 -3px;}
-
-	.bell-notify{width:6px;height:6px;}
-
-	.notification-links td a{font-size:20px;}
-
-	.notification-links td a.active{padding-bottom:7px;}
-
-	.notification-links td:first-child .tabs-title,.notification-links td:last-child .tabs-title{padding:5px;}
-
-	
-
-	.update-location{padding:7px 0}
-
-	.update-location img{height:27px;}
-
-	.job-thumb 	{margin-bottom:10px}
-
-	.job-thumb-holder{width:105px;height:105px;}
-
-	.job-dtl 	{padding:0 0 0 15px;margin-left:105px;}
-
-	.meeting-row,.meeting-row .km {font-size:20px;}
-
-	.job-dtl h3 {font-size:25px;padding:3px 0px }
-
-	.date-time 	{font-size:16px;padding:0px 0px 3px 0}	
-
-	
-
-	.location-main{padding:10px 0px;}
-
-	.location-pin{width:30px; }
-
-	.send-mesage{font-size:16px;line-height:17px;padding:10px 10px }
-
-	.location-address{margin:0 95px 0 45px }
-
-	.location-address p{font-size:18px;line-height:19px; }	
-
-	.wordaapp{font-size:17px;margin:10px 0 10px 45px;}
-
-	.butchers{font-size:17px;padding:10px 0 10px 45px}
-
-	
-
-	.favourite-box 	{padding:10px; }
-
-	.favourite-holder 	{width:75px;height:75px;}
-
-	.favourite-dtl {margin: 0 0 0 95px; }
-
-	.favourite-dtl h3{font-size:22px;padding-bottom:0px;padding-top:17px }
-
-	.favourite-dtl h3 .km{font-size:19px; }
-
-	.rating-div	.number{font-size:18px;}
-
-	.rating-div img{width:20px}
-
-	.favourite-detail {margin-top:15px;margin-bottom:10px;padding:0 0px 0 15px}
-
-	.favourite-detail p{font-size:17px;line-height:19px;padding:5px 0;}
-
-	.pipe 			{margin:0 5px}
-
-	
-
-	.messages-main	{padding-top:0px}
-
-	.messages-box 	{padding:7px 5px 7px 7px}
-
-	.msgimg-holder 	{width:50px;height:50px;}
-
-	.messages-box h3{margin-left:10px;font-size:18px}
-
-	.messages-box h3 span{font-size:16px}
-
-	.msg-dtl 		{font-size:17px;margin-top:-12px;}
-
-	.msg-dtl div,.msg-dtl div span{width:25px;height:25px}
-
-	.msg-dtl div span{font-size:17px;line-height:25px }
-
-	
-
-	.messages-header h3{font-size:22px;}
-
-	.messages-header h3 span{font-size:17px}
-
-	
-
-	.listing-row	{padding:5px 0 15px 10px}
-
-	.listing-row h3 {font-size:18px;}
-
-	.listing-div span{font-size:13px;padding:0px 3px;line-height:17px  }
-
-	.listing-div span::after{height:12px }
-
-	.listing-div .last-seen{font-size:14px;}
-
-	
-
-	.blacking-wing-main .user-div{width:100px;height:100px }
-
-	.blacking-wing-main .user-div .MultiFile-label span{height:100px}
-
-	.blacking-wing-main  .favourite-dtl{margin:0 0 0 115px }
-
-	.blacking-wing-main .favourite-dtl h3{padding-bottom:0px }
-
-	.blacking-wing-main .rating-div{margin-bottom:7px;margin-top:0px}
-
-	.blacking-wing-main .rating-div img{width:15px;}
-
-	.blacking-wing-main .reviews-btn{font-size:16px;padding-left:30px;padding-right:30px  }
-
-	
-
-	.photo-video-title{padding-bottom:10px}
-
-	.uploadthumb{margin:0px 2% 2% 0;width:31.3%; }
-
-	#photo-upload{width:31.3%;height:120px}
-
-	
-
-	
-
-	.reviews-profile-verified .user-div{width:100px;height:100px }
-
-	.reviews-profile-verified  .favourite-dtl{margin:0 0 0 115px }
-
-	.reviews-profile-verified .favourite-dtl h3{padding-bottom:0px }
-
-	.reviews-profile-verified .rating-div{margin-bottom:7px;margin-top:0px}
-
-	.reviews-profile-verified .rating-div img{width:15px;}
-
-	.three-btns-div .button{font-size:14px;padding:10px 10px;width:auto;margin-right:2px}
-
-	
-
-	.prfl-div 			{padding:7px }
-
-	.prfl-div label 	{font-size:17px;}
-
-	.prfl-div .prfl-dtl {font-size:18px;}
-
-	.div-row .left-div, .cv{font-size:18px}
-
-	.div-row .right-div {font-size:17px}
-
-	.div-row 	{margin-bottom:15px }
-
-	.cv-dtl 	{padding:10px 15px;}
-
-	.cv-dtl p 	{font-size:16px;line-height:20px}
-
-	.photo-video{margin:0 -5px}
-
-	.photo-div 	{padding:5px}
-
-	.photo-div a img.play-icon {width:50px;margin:-25px 0 0 -25px}
-
-	
-
-	.job-row h2 	{font-size:25px;}	
-
-	.detail-div h4 	{font-size:20px;}
-
-	.detail-div p, .ollist li{font-size:17px;line-height:normal}	
-
-	.budget-div,.duration-div{font-size:16px;}
-
-	.budget-duration{padding-bottom:10px; }
-
-	.posted-dt 	{font-size:17px;padding-top:10px;}
-
-	
-
-	.for-rating .favourite-holder {width:55px;height:55px;}
-
-	.for-rating .favourite-dtl {margin:0 0 0 65px;}
-
-	.for-rating .favourite-dtl h3 {padding:10px 0 5px 0;font-size:20px;}
-
-	.for-rating .rating-div{top:6px;}
-
-	.for-rating .rating-div img{width:15px; }
-
-	
-
-	.km-away{font-size:20px;right:0px}
-
-	
-
-	.intrested-edit-cancel .button{font-size:18px }
-
-	.intrested-div	{padding-right:5px; }
-
-	.edit-div		{padding-left:10px;padding-right:10px;}
-
-	.cancel-div		{padding-left:5px }
-
-	
-
-	.post-a-job-main{padding:20px 15px;}
-
-	.post-a-job-main h2{font-size:30px}
-
-	.job-input 		{padding:10px 15px;font-size:20px;}
-
-	
-
-	.select-all		{margin-bottom:25px;}
-
-	
-
-	.meet-invite 	{height:52px;bottom:53px}
-
-	.meet-invite a {padding:7px 0 5px 0 }
-
-	.meet-invite a .meet-icon{height:20px;}
-
-	.meet-invite a span{font-size:16px; }
-
-	.meet-invite a span.mi-title{line-height:18px;}	
-
-	
-
-	.invite-box .favourite-dtl h3{padding-top:5px }
-
-	.invite-box .favourite-dtl h3 p{padding-top:0px;padding-bottom:0px; }
-
-	.rating-review .button{width:135px;padding:5px 0px  }
-
-	.rating-review .rating-div{margin-bottom:3px;font-size:15px}
-
-	.location-text p{font-size:22px;line-height:25px}
-
-	.location-text .font-size24{font-size:20px!important;}
-
-	.exact-location {padding-top:5px }
-
-	.exact-location p{font-size:19px;line-height:25px}
-
-	.butchers-flattening-div p{font-size:19px;}
-
-	.date-time-div 	{font-size:25px}
-
-	
-
-	.photo-shooting{font-size:20px;padding-top:9px;}
-
-	.allow-div .control,.control__not_alowed{font-size:15px }	
-
-	
-
-	.hours-minutes .box-shadow{padding:7px 15px }
-
-	.hours-minutes p{font-size:15px;line-height:18px }
-
-	.num-box 		{width:55px;font-size:21px;margin:0px 5px 0 0;height:40px;line-height:28px;padding:3px 0px   }
-
-	.input-numbox input {height:40px;padding:3px 0px;font-size:21px;}
-
-	.hours-minutes div.second-div{margin-left:152px }	
-
-	.second-div .usd-span{font-size:20px;margin-top:5px}
-
-	.meeting-topics{padding:10px 0 }
-
-	.meeting-topics p{font-size:20px}
-
-	.share-experience p{font-size:20px;padding-top:0px; }
-
-	.meting-note{font-size:16px;}
-
-	
-
-	.js .input-file-trigger {padding:15px 15px 15px 45px;font-size:19px;background-size:24px auto!important}
-
-	
-
-	.login-main .button,.registered-main .button{font-size:22px; }
-
-	.login-main .button{padding:7px 50px 7px 50px}
-
-	.login-main .form-group{padding-bottom:5px }
-
-	.login-main p,.registered-main p{font-size:22px; }
-
-	.forgot-pass 	{font-size:18px;}
-
-	
-
-	.make-profile 		{padding:40px 40px 20px 40px}
-
-	.map-icon 			{width:100px;}	
-
-	.make-profile-div 	{padding:20px 0 30px 0}
-
-	.make-profile-div .button{font-size:22px;padding-left:40px;padding-right:40px;display:block;white-space:nowrap}
-
-	.skip-div a			{font-size:25px;}
-
-	
-
-	.fancybox-inner .sub-link-main{width:370px}
-
-	.sub-link-list {padding:0 15px}	
-
-	.sub-link-title {font-size:24px;padding:14px 0px;}
-
-	.sub-link-list a {padding:11px 0px;font-size:20px;}
-
-	
-
-	 
-
-	.loged-user 	{padding:10px 20px 10px 10px}
-
-	.loged-user-img{width:60px;height:60px;}
-	.loged-user-title-sub{height:60px;}
-	.loged-user-title{font-size:17px;margin-left:75px;/*padding:14px 30px 14px 0px;*/}
-
-	.menu-links 	{padding:10px 0px 10px 0px}
-
-	.menu-links li a{font-size:19px;padding:8px 0px 8px 22px }	
-
-	.menu-links li .menu-icon{width:35px;margin-right:20px  }
-
-	.main-user 	{background-size:20px auto}
-
-	
-
-	.subuser .loged{margin:12px 0 0px 0}
-
-	.subuser .add-account {margin-top:7px;}	
-
-	
-
-	.reset-button{height:50px; }
-
-	.photo-video-title{font-size:18px}
-
-	
-
-	.about-main h2{font-size:25px;padding-top:15px }
-
-	.about-main p{font-size:18px;line-height:23px  }
-
-	
-
-	.typeAmt input 		{width:50px;}
-
-	.typeAmt input,.daysAmt input{font-size:18px;padding:2px;color:#ef003e}
-
-	.daysAmt input 		{width:30px }
-
-	
-
-	.plus-sign, #change-photo{width:38px;height:38px;bottom:-19px;margin-left:-19px;}
-
-	.confirmation p{font-size:18px }
-
-	.confirmation .pay-tok{font-size:22px!important }
-
-	
-
-	.termscondition{font-size:17px}
-
-	
-
-	.inv-pro-row 		{font-size:18px;padding:4px 0px 5px 0px;line-height:22px }
-
-	.inv-pro-row label 	{font-size:17px;width:160px; }
-
-	.inv-pro-row .prfl-dtl{margin-left:160px  }
-
-	.update-location{font-size:23px;}
-
-	.advance-search .select-style{background-position:96% 46%}
-
-	.advance-search .select-style select,.advance-search .textarea{padding:10px 15px;font-size:22px;}
-
-	.select-all {font-size:20px;}
-
-	.control__indicator, .thumb-row .control__indicator, .thumb-row .control{width:25px;height:25px}
-
-	.control{line-height:28px }
-
-	.feedback-icon 		{width:40px;}
-
-	.feedback-div h3{width:87%;font-size:18px;line-height:21px;}
-
-	.feedback-main .form-control{height:120px}
-
-	.feedback-main .feedTextarea textarea{font-size:18px;line-height:21px}
-
-}
-
-@media screen and (min-width:375px) and (max-width:413px) {
-
-	.notification-links td:first-child .tabs-title,.notification-links td:last-child .tabs-title{padding:5px;}
-
-	.topbar {padding:8px 0 8px 0;}
-
-	.selectric-items li {line-height:17px;font-size:15px;padding:9px 10px;}
-
-	/*header .container{padding-top:15px;padding-bottom:15px  }*/
-
-	.bell-div 	{width:20px;margin-left:-10px;top:10px  }
-
-	.view-website {font-size:17px; }
-
-	.job-posted-user{font-size:15px; }
-
-	.job-title {font-size:13px; }
-
-	.likes-div{font-size:18px; }
-
-	.doted-main{width:40px }
-
-	.selectric .label 	{ }
-
-	.selectric .button,.filter-link{background-size:15px auto;}
-
-	.selectric .button,.filter-link2{background-size:15px auto;}
-
-	.fltr-icon img{height:30px}
-
-	.fltr-title {font-size:14px;padding-top:5px}	
-
-	
-
-	.home-link 	{left:5%;top:3px;width:25px;}
-
-	 .menu-link{width:21px;top:6px}
-
-	.work-link,.hire-link{padding:0px 0px 0px 0px;font-size:18px;height:31px;width:72px;border-radius:10px;line-height:30px  }
-
-	.work-link 	{left:17%;}
-
-	.hire-link	{right:17%;}
-
-	.menu-link 	{right:5%;top:10px}
-
-	.plus-link 	{width:33px;height:30px;margin-left:-16px;font-size:25px;line-height:26px}
-
-	h2 			{font-size:22px }
-
-	.button 	{font-size:21px }
-
-	.width325 	{width:185px }
-
-	.plus-sign 	{width:35px;height:35px;font-size:30px;margin-left:-17px;bottom:-17px;line-height:35px }
-
-	.user-div	{width:130px;}
-
-	.user-img,.user-div .MultiFile-label span{height:130px}
-
-	.user-title {font-size:22px;}
-
-	.talent-textarea{padding:4px 8px;font-size:18px;}
-
-	.select-style select{padding:6px 30px 6px 8px;font-size: 18px;}
-	.left-select .select-style select{font-size:16px;}
-	.form-control {padding:6px 8px 6px 8px;font-size: 18px;}
-
-	.select-style{background-position:93% 46%;background-size:16px auto}
-
-	#other-test {width:125px;height:125px;/*background-size:50px auto;*/}
-
-	#other-test:hover{/*background-size:50px auto*/}
-
-	.notify-title{font-size:18px;}
-
-	.notification-links td a{padding-bottom:9px;}
-
-	.notification-links td a img,.notification-links td a .tabs-title{height:25px;}
-
-	.notification-links td a img{margin:0 12px}
-
-	.bell-notify{width:5px;height:5px;}
-
-	.notification-links td a .tabs-title{margin:0 0 0 -2px;}
-
-	.notification-links td a{font-size:18px;}
-
-	.notification-links td a.active{padding-bottom:7px;}
-
-	.update-location{padding:7px 0}
-
-	.update-location img{height:25px;}
-
-	.job-thumb 	{margin-bottom:10px}
-
-	.job-thumb-holder{width:100px;height:100px  }
-
-	.job-dtl 	{padding:0 0 0 20px;margin-left:100px;}
-
-	.meeting-row,.meeting-row .km {font-size:18px;}
-
-	.job-dtl h3 {font-size:24px;padding:2px 0px }
-
-	.date-time 	{font-size:17px;}
-
-	.date-time 	{font-size:15px;}
-
-	.time 		{position: static;margin:3px 0 3px 0; }
-
-	
-
-	.location-main{padding:10px 0px;}
-
-	.location-pin{width:25px; }
-
-	.send-mesage{font-size:15px;line-height:16px;padding:7px 10px 10px 10px}
-
-	.location-address{margin:0 90px 0 40px }
-
-	.location-address p{font-size:15px;line-height:16px; }	
-
-	.wordaapp{font-size:14px;margin:10px 0 10px 40px;}
-
-	.butchers{font-size:14px;padding:10px 0 10px 40px}
-
-	
-
-	.favourite-box 	{padding:10px; }
-
-	.favourite-holder 	{width:70px;height:70px;}
-
-	.favourite-dtl {margin: 0 0 0 90px; }
-
-	.favourite-dtl h3{font-size:17px;padding-bottom:0px;padding-top:15px }
-
-	.favourite-dtl h3 .km{font-size:17px; }
-
-	.rating-div	.number{font-size:16px;}
-
-	.rating-div img{width:17px}
-
-	.favourite-detail {margin-top:10px;margin-bottom:10px;padding:0 0px 0 15px}
-
-	.favourite-detail p{font-size:17px;line-height:19px;padding:5px 0;}
-
-	.pipe 			{margin:0 7px}
-
-	
-
-	.messages-main	{padding-top:0px}
-
-	.messages-box 	{padding:7px 5px 7px 7px}
-
-	.msgimg-holder 	{width:45px;height:45px;}
-
-	.messages-box h3{margin-left:10px;font-size:18px}
-
-	.messages-box h3 span{font-size:15px}
-
-	.msg-dtl 		{font-size:15px;margin-top:-10px;}
-
-	.msg-dtl div,.msg-dtl div span{width:20px;height:20px}
-
-	.msg-dtl div span{font-size:15px;line-height:20px }
-
-	
-
-	
-
-	.listing-row h3 {font-size:17px;}
-
-	.listing-div span{font-size:13px;padding:0px 4px;line-height:15px  }
-
-	.listing-div .last-seen{font-size:12px;}
-
-	.listing-div 	{background-size:auto 15px}
-
-	.listing-div span::after{right:-2px;top:2px;height:10px }
-
-	.listing-div span.last-seen::after{ }
-
-	
-
-	.blacking-wing-main .user-div{width:100px;height:100px }
-
-	.blacking-wing-main .user-div .MultiFile-label span{height:100px}
-
-	.blacking-wing-main .favourite-dtl{margin:0 0 0 115px}
-
-	.blacking-wing-main .favourite-dtl h3{padding-bottom:5px }
-
-	.blacking-wing-main .favourite-dtl h3 .km{top:2px }
-
-	.blacking-wing-main .rating-div {margin-bottom:13px;}
-
-	.blacking-wing-main .reviews-btn{font-size:16px; padding:5px 25px 5px 25px;line-height:20px }
-
-	
-
-	.photo-video-title{padding-bottom:10px}
-
-	.uploadthumb{margin:0px 2% 2% 0;width:31.3%; }
-
-	#photo-upload{width:31.3%;height:110px}
-
-	
-
-	.reviews-profile-verified .user-div{width:85px;height:85px }
-
-	.reviews-profile-verified  .favourite-dtl{margin:-5px 0 0 95px }
-
-	.reviews-profile-verified .favourite-dtl h3{padding-bottom:0px;padding-top:0px;  }
-
-	.reviews-profile-verified .rating-div{margin-bottom:5px;margin-top:0px}
-
-	.reviews-profile-verified .rating-div img{width:15px;   }
-
-	.three-btns-div .button{font-size:14px;padding:10px 4px;width:auto;margin-right:2px}
-
-	
-
-	.prfl-div 			{padding:7px }
-
-	.prfl-div label 	{font-size:14px;}
-
-	.prfl-div .prfl-dtl {font-size:16px;}
-
-	.div-row .left-div, .cv{font-size:16px}
-
-	.div-row .right-div {font-size:16px}
-
-	.div-row 	{margin-bottom:15px }
-
-	.cv-dtl 	{padding:10px 15px;}
-
-	.cv-dtl p 	{font-size:16px;line-height:20px}
-
-	.photo-video{margin:0 -5px}
-
-	.photo-div 	{padding:5px}
-
-	.photo-div a img.play-icon {width:50px;margin:-25px 0 0 -25px}
-
-	
-
-	.job-row h2 	{font-size:22px;}
-
-	.detail-div h4 	{font-size:20px;}
-
-	.detail-div p, .ollist li{font-size:17px;line-height:normal}	
-
-	.budget-div,.duration-div{font-size:17px;}
-
-	.typeAmt input{width:50px}
-
-	.daysAmt input 		{width:25px }
-
-	.typeAmt input,.daysAmt input{font-size:17px;}	
-
-	 
-
-	.budget-duration{padding-bottom:10px; }	
-
-	.posted-dt 	{font-size:18px;padding-top:10px;}
-
-	
-
-	.for-rating .favourite-holder {width:50px;height:50px;}
-
-	.for-rating .favourite-dtl {margin:0 0 0 60px;}
-
-	.for-rating .favourite-dtl h3{padding:10px 0 5px 0;font-size:18px;}
-
-	.rating-div img 	{width:15px }
-
-	.for-rating .favourite-dtl p{font-size:16px;line-height:22px;padding-top:0px;}
-
-	.km-away{font-size:15px;right:0px;line-height:18px }
-
-	.thumb-row .control__indicator, .thumb-row .control,.control__indicator{width:30px;height:30px  }
-
-	.km-last-seen 	{margin-top:5px;}
-
-	.for-rating .rating-div{top:7px;font-size:15px }	
-
-	
-
-	.intrested-edit-cancel .button{font-size:15px }
-
-	/*.photo-job-video .row div{padding:17px 0}*/
-
-	.photo-job-video a{font-size:15px;}
-
-	
-
-	.post-a-job-main{padding:15px;}
-
-	.job-input 		{padding:8px 10px;font-size:16px;}
-
-	.job-textarea 	{height:125px; }
-
-	.rq-textarea 	{height:75px; }
-
-	
-
-	.select-all		{margin-left:20px;padding-left:45px; }
-
-	
-
-	.invite-main 	{padding:15px}
-
-	
-
-	
-
-	.invite-box .favourite-dtl h3{padding-top:4px;padding-bottom:0px;  }
-
-	.for-rating .rating-div{margin-bottom:3px }
-
-	.rating-review 	{top:-2px}
-
-	.invite-box .favourite-dtl h3 p{padding-top:0px}
-
-	.rating-review .button{width:130px;font-size:15px;padding:3px 0px;  }
-
-	
-
-	.location-text p{font-size:20px;line-height:23px; }
-
-	.location-text p.font-size24{font-size:18px!important}
-
-	.exact-location p{font-size:17px;}
-
-	.butchers-flattening-div p{font-size:18px;}
-
-	.date-time-div{font-size:21px;}
-
-	.photo-shooting{font-size:20px;}
-
-	.allow-div .control,.control__not_alowed{font-size:14px;}
-
-	.hours-minutes p{font-size:16px;width:100px;line-height:19px;height:45px }
-
-	.num-box 		{width:42px;height:28px;font-size:18px;padding:2px 0px;margin:0 5px 0 0;line-height:24px  }
-
-	.input-numbox .num-box{width:55px;height:40px;padding:0px 0px;font-size:20px;}
-
-	.input-numbox input{height:40px;padding:2px 0px;font-size:20px;}
-
-	.hours-minutes div.second-div{margin-left:130px;padding-right:0px}
-
-	.hours-minutes .box-shadow{padding:8px 10px}
-
-	.second-div .usd-span{font-size:14px;margin-top:4px}
-
-	.second-div .input-numbox .usd-span{font-size:20px;margin-top:4px}
-
-	.hours-minutes div.second-div p{width:auto}
-
-	.hours-minutes div.margin-left0 p{height:auto}
-
-	.meeting-topics {padding:5px 0;}
-
-	.meeting-topics p{font-size:18px;}
-
-	.share-experience{padding:7px}
-
-	.share-experience p{font-size:18px;line-height:22px}
-
-	.meting-note 	{font-size:16px;}
-
-	
-
-	.js .input-file-trigger {padding:15px 15px 15px 35px;font-size:17px;background-size:15px auto!important}
-
-	
-
-	.login-main {padding:20px 30px}
-
-	.login-main .button,.registered-main .button{font-size:18px; }
-
-	.login-main .button{padding:7px 37px 7px 37px}	
-
-	.login-main .form-group{padding-bottom:3px }
-
-	.login-main p,.registered-main p{font-size:18px; }
-
-	.forgot-pass 	{font-size:13px;}
-
-	.registered-main{padding:15px; }
-
-	.registered-main p{margin-bottom:15px }
-
-	
-
-	.make-profile 		{padding:35px 25px 15px 25px}
-
-	.map-icon 			{width:90px;}	
-
-	.make-profile-div 	{padding:15px 0 25px 0}
-
-	.make-profile-div .button{font-size:20px;padding-left:35px;padding-right:35px;display:block;white-space:nowrap}
-
-	.skip-div a			{font-size:22px;}
-
-	
-
-	.fancybox-inner .sub-link-main{width:340px}
-
-	.sub-link-list {padding:0 15px}	
-
-	.sub-link-title {font-size:21px;padding:12px 0px;}
-
-	.sub-link-list a {padding:10px 0px;font-size:18px;}
-
-	
-
-	.menu-main 		{width:84% }
-
-	.loged-user 	{padding:10px 20px 10px 10px}
-
-	.loged-user-img{width:60px;height:60px;}
-
-	.loged-user-title{font-size:17px;margin-left:75px;/*padding:14px 30px 14px 0px;*/}
-	.loged-user-title-sub{height:60px;}
-	.menu-links 	{padding:10px 0px 10px 0px}
-
-	.menu-links li a{font-size:19px;padding:8px 0px 8px 22px }	
-
-	.menu-links li .menu-icon{width:35px;margin-right:20px  }
-
-	.main-user 	{background-size:20px auto}
-
-	
-
-	.subuser .loged{margin:12px 0 0px 0}
-
-	.subuser .add-account {margin-top:7px;}
-
-	
-
-	.reset-button{height:45px;}
-
-	.photo-video-title{font-size:16px}
-
-	
-
-	.video-upload .input-file-trigger{font-size:22px;}
-
-	.confirmation p{font-size:18px }
-
-	
-
-	.confirmation p{font-size:18px }
-
-	.confirmation .pay-tok{font-size:21px!important }
-
-	
-
-	.termscondition{font-size:16px}
-
-	
-
-	.inv-pro-row 		{font-size:17px;padding:4px 0px 4px 0px;line-height:19px }
-
-	.inv-pro-row label 	{font-size:16px;width:150px; }
-
-	.inv-pro-row .prfl-dtl{margin-left:150px  }
-
-	.update-location{font-size:19px;}
-
-	.advance-search .select-style{background-position:96% 46%}
-
-	.advance-search .select-style select,.advance-search .textarea{padding:10px 10px;font-size:20px;}
-
-	.select-all {font-size:20px;}
-
-	.control__indicator, .thumb-row .control__indicator, .thumb-row .control{width:22px;height:22px}
-
-	
-
-	.feedback-icon {width:35px;}
-
-	.feedback-div h3{width:85%;font-size:17px;line-height:20px;}
-
-	.feedback-main .form-control{height:100px}
-
-	.feedback-main .feedTextarea textarea{font-size:17px;line-height:20px;padding:7px 10px;}
-
-}
-
-@media screen and (min-width:300px) and (max-width:413px) {
-
-	/*.for-rating .favourite-dtl h3{padding:10px 0 5px 0;font-size:22px; }*/
-
-	/*.for-rating .rating-div{float: none;position: static}
-
-	.for-rating .favourite-detail p{line-height:27px }
-
-	.km-away{font-size:17px;right:0px;line-height:18px }*/	
-
-	.bottom-holder{height:52px; }
-
-	.work-hire-main{padding:9px 0}
-
-	.work-hire-main .container{height:31px }
-	.home-link{top:1px}
-	 .menu-link{top:2px}
-
-	.form-control{font-size:20px;line-height:24px; }
-
-	.form-main .button{font-size:20px;line-height:25px; }
-
-	.intrested-div{padding-right:0px; }
-
-	.edit-div{padding-left:7px;padding-right:7px;}
-
-	.cancel-div{padding-left:0px }
-
-	
-
-	.post-a-job-main{padding:10px;}
-
-	.job-input 		{padding:8px 10px;font-size:16px;}
-
-	.job-textarea 	{height:125px; }
-
-	.rq-textarea 	{height:100px; }
-
-	.post-a-job-main h2{font-size:25px}
-
-	
-
-	.meet-invite 	{height:50px;bottom:50px}
-
-	.meet-invite a {padding:7px 0 5px 0 }
-
-	.meet-invite a .meet-icon{height:20px;}
-
-	.meet-invite a span{font-size:16px; }
-
-	.meet-invite a span.mi-title{line-height:18px;}
-
-	
-
-	.about-main h2{font-size:22px;padding-top:15px}
-
-	.about-main p{font-size:16px;line-height:20px}
-
-	
-
-	.plus-sign, #change-photo{width:35px;height:35px;bottom:-17px;margin-left:-17px;}
-
-	.feedback-div h3{padding-left:10px; }
-
-}
-
-@media screen and (min-width:300px) and (max-width:374px) {	
-
-	/*header .container{padding-top:16px;padding-bottom:14px  }
-
-	.selectric .label 	{font-size:16px;line-height:17px;}*/
-
-	.notification-links td:first-child .tabs-title,.notification-links td:last-child .tabs-title{padding:3px;}
-
-	.selectric .button,.filter-link{background-size:15px auto;}
-
-	.selectric .button,.filter-link2{background-size:15px auto;}
-
-	.bell-div 	{width:20px;margin-left:-10px;top:8px}	
-
-	.selectric .label, .filter-link{padding-top:9px;padding-bottom:9px;}
-
-	.selectric .label, .filter-link2{padding-top:9px;padding-bottom:9px;}
-
-	.job-posted-user{font-size:15px;}
-
-	.job-title {font-size:13px;}
-
-	.likes-div{font-size:18px;}
-
-	.doted-main{width:40px}
-
-	
-
-	.work-hire-main{height:50px;}
-
-	.home-link 	{left:4%;top:0px;width:25px;}
-
-	.menu-link{width:21px;top:2px}
-
-	.work-link,.hire-link{padding:0px 0px 0px 0px;font-size:16px;height:31px;width:70px;border-radius:10px;line-height:30px}
-
-	.work-link 	{left:17%;}
-
-	.hire-link	{right:17%;}
-
-	.menu-link 	{right:4%;top:4px}
-
-	.plus-link 	{width:33px;height:30px;margin-left:-16px;font-size:25px;line-height:28px}
-
-	h2 			{font-size:20px }
-
-	.button 	{font-size:18px }
-
-	.width325 	{width:175px }
-
-	.plus-sign 	{width:30px;height:30px;font-size:30px;margin-left:-15px;bottom:-15px;line-height:30px}	
-
-	.select-style select,.talent-textarea{padding:13px 8px;font-size:13px;}
-
-	.select-style{background-position:93% 47%;background-size:14px auto}
-
-	#other-test {width:110px;height:110px;/*background-size:40px auto*/}
-
-	#other-test:hover{/*background-size:40px auto*/}
-
-	.notify-title 		{font-size:16px;}
-
-	.notification-links td a{padding-bottom:7px;}
-
-	.notification-links td a img,.notification-links td a .tabs-title{height:20px;}
-
-	.notification-links td a img{margin:0 10px}
-
-	.bell-notify{width:4px;height:4px;}
-
-	.notification-links td a .tabs-title{margin:0 0 0 -2px;}
-
-	.notification-links td a{font-size:16px;}
-
-	.notification-links td a.active{padding-bottom:5px;}
-
-	.update-location{padding:6px 0}
-
-	.update-location img{height:23px;}
-
-	.job-thumb 	{margin-bottom:10px}
-
-	.job-thumb-holder{width:75px;height: 75px}
-
-	.job-dtl 	{padding:0 0 0 15px;margin-left:75px;}
-
-	.meeting-row,.meeting-row .km {font-size:16px;}
-
-	.job-dtl h3 {font-size:22px;padding:2px 0px }
-
-	.date-time 	{font-size:15px;}
-
-	.time 		{position: static;margin:3px 0 3px 0; }
-
-	
-
-	.location-main{padding:10px 0px;}
-
-	.location-pin{width:25px; }
-
-	.send-mesage{font-size:15px;line-height:16px;padding:7px 10px 10px 10px}
-
-	.location-address{margin:0 90px 0 40px }
-
-	.location-address p{font-size:15px;line-height:16px; }	
-
-	.wordaapp{font-size:14px;margin:10px 0 10px 40px;}
-
-	.butchers{font-size:14px;padding:10px 0 10px 40px}
-
-	
-
-	.favourite-box 	{padding:10px; }
-
-	.favourite-holder 	{width:65px;height:65px;}
-
-	.favourite-dtl {margin: 0 0 0 80px; }
-
-	.favourite-dtl h3{font-size:18px;padding-bottom:0px;padding-top:18px }
-
-	/*.favourite-dtl h3 .km{font-size:15px;top:12px}*/
-	.favourite-dtl h3 .km{font-size:15px;}
-
-	.rating-div	.number{font-size:15px;}
-
-	.rating-div img{width:15px}
-
-	.favourite-detail {margin-top:10px;margin-bottom:10px;padding:0 0px 0 10px}
-
-	.favourite-detail p{font-size:17px;line-height:normal;padding:4px 0;}
-
-	.pipe 			{margin:0 5px}
-
-	.km-away 		{font-size:14px;line-height:16px;right:5px }
-
-	
-
-	.messages-main	{padding-top:0px}
-
-	.messages-box 	{padding:5px 3px 5px 5px}
-
-	.msgimg-holder 	{width:35px;height:35px;}
-
-	.messages-box h3{margin-left:10px;font-size:16px}
-
-	.messages-box h3 span{font-size:14px}
-
-	.msg-dtl 		{font-size:14px;margin-top:-9px;}
-
-	.msg-dtl div,.msg-dtl div span{width:18px;height:18px}
-
-	.msg-dtl div span{font-size:14px;line-height:20px }	
-
-	
-
-	.listing-div .last-seen{font-size:12px;}
-
-	.listing-div 	{background-size:auto 15px}
-
-	.listing-div span::after{right:-2px;top:2px;height:10px }
-
-	.listing-div span.last-seen::after{right:-4px }
-
-	
-
-	.blacking-wing-main .user-div{width:100px;height:100px }
-
-	.blacking-wing-main .user-div .MultiFile-label span{height:100px}
-
-	.blacking-wing-main .favourite-dtl{margin:0 0 0 115px}
-
-	.blacking-wing-main .favourite-dtl h3{padding-bottom:5px }
-
-	.blacking-wing-main .favourite-dtl h3 .km{top:2px }
-
-	.blacking-wing-main .rating-div {margin-bottom:13px;}
-
-	.blacking-wing-main .reviews-btn{font-size:16px; padding:5px 25px 5px 25px;line-height:20px }
-
-	
-
-	.photo-video-title{font-size:20px;padding-bottom:15px }
-
-	.uploadthumb{margin:0px 2.5% 2.5% 0;width:45%; }
-
-	#photo-upload{width:45%;height:130px}
-
-	
-
-	.reviews-profile-verified .user-div{width:80px;height:80px  }
-
-	.reviews-profile-verified  .favourite-dtl{margin:0 0 0 90px }
-
-	.reviews-profile-verified .favourite-dtl h3{padding-bottom:0px;padding-top:0px;  }
-
-	.reviews-profile-verified .rating-div{margin-bottom:5px;margin-top:0px}
-
-	.reviews-profile-verified .rating-div img{width:15px;   }
-
-	.three-btns-div .button{font-size:12px;padding:8px 3px;width:auto;margin-right:1px}
-
-	
-
-	.prfl-div 			{padding:5px }
-
-	.prfl-div label 	{font-size:12px;}
-
-	.prfl-div .prfl-dtl {font-size:14px;}
-
-	.div-row .left-div, .cv{font-size:16px}
-
-	.div-row .right-div {font-size:16px}
-
-	.div-row 	{margin-bottom:15px }
-
-	.cv-dtl 	{padding:10px 15px;}
-
-	.cv-dtl p 	{font-size:16px;line-height:20px}
-
-	.photo-video{margin:0 -5px}
-
-	.photo-div 	{padding:5px}
-
-	.photo-div a img.play-icon {width:50px;margin:-25px 0 0 -25px}
-
-	
-
-	.job-row h2 		{font-size:22px;}
-
-	.detail-div h4 		{font-size:20px;}
-
-	.detail-div p, .ollist li{font-size:18px;line-height:normal}	
-
-	.budget-div,.duration-div{font-size:15px;}
-
-	.typeAmt input,.daysAmt input{font-size:15px;padding:0px 2px }
-
-	.typeAmt input{width:40px }
-
-	.daysAmt input{text-align:right;width:20px }
-
-	.budget-duration{padding-bottom:10px; }
-
-	.posted-dt 	{font-size:14px;padding-top:10px;}
-
-	.intrested-edit-cancel .button{font-size:13px; }
-
-	
-
-	/*.photo-job-video .row div{padding:15px 0}*/
-
-	.photo-job-video a{font-size:13px;}
-
-	.select-all		{margin-bottom:15px;margin-left:20px}
-
-	.for-rating .favourite-holder {width:50px;height:50px;}
-
-	.for-rating .favourite-dtl {margin:0 0 0 60px;}
-
-	.for-rating .favourite-dtl h3{padding:10px 0 5px 0;font-size:18px;}
-
-	.rating-div img 	{width:15px }
-
-	.for-rating .rating-div{position:static;float:none;margin-bottom:5px}
-
-	.km-last-seen{margin-top:5px; }
-
-	.for-rating .favourite-dtl p{font-size:16px;line-height:22px;padding-top:0px;}
-
-	.control__indicator,.thumb-row .control__indicator, .thumb-row .control{width:30px;height:30px;}
-
-	
-
-	.invite-box .favourite-dtl h3{padding-top:1px;padding-bottom:0px}
-
-	.rating-review {position:static;float:none;text-align:left}
-
-	.rating-review .button{width:130px;font-size:15px;padding:3px 0px;}
-
-	
-
-	.invite-box .favourite-dtl h3{padding-top:1px}
-
-	.for-rating .rating-div{margin-bottom:3px}
-
-	.rating-review 	{top: -4px}
-
-	.invite-box .favourite-dtl h3 p{padding-top:0px}
-
-	.rating-review .button{width:130px;font-size:15px;padding:3px 0px;}
-
-	
-
-	.location-text p{font-size:20px;line-height:23px;}
-
-	
-
-	.location-text p.font-size24{font-size:17px!important}
-
-	.exact-location{padding-left:10px}	
-
-	.exact-location p{font-size:16px;}	
-
-	.butchers-flattening-div p{font-size:16px;}	
-
-	.date-time-div{font-size:20px;}	
-
-	.photo-shooting{font-size:16px;}
-
-	.allow-div .control{height:30px;line-height:29px;padding:0px 45px 0px 25px}
-
-	.allow-div .control__indicator{width:30px;height:30px}
-
-	.allow-div .control,.control__not_alowed{font-size:13px;line-height:32px;}
-
-	.allow-div .control{margin:2px 10px 2px 0px}
-
-	.hours-minutes p{font-size:16px;width:80px;line-height:19px;height:45px}
-
-	.hours-minutes div.second-div{margin-left:110px;padding-right:0px}
-
-	.num-box 		{width:38px;height:28px;font-size:18px;padding:3px 0px;margin:0 2px 0 0;line-height:24px}	
-
-	
-
-	.hours-minutes .box-shadow{padding:8px 10px}
-
-	.second-div .usd-span{font-size:14px;margin-top:6px}
-
-	.hours-minutes div.second-div p{width:auto}
-
-	.hours-minutes div.margin-left0 p{height:auto}
-
-	.meeting-topics {padding:5px 0;}
-
-	.meeting-topics p{font-size:17px;}
-
-	.share-experience{padding:7px}
-
-	.share-experience p{font-size:15px;line-height:22px}
-
-	.meting-note 	{font-size:15px;}
-
-	
-
-	.js .input-file-trigger {padding:15px 15px 15px 35px;font-size:17px;background-size:17px auto!important}
-
-	
-
-	.login-main {padding:25px 0px 25px 0px}
-
-	.login-main .button,.registered-main .button{font-size:18px; }
-
-	.login-main .button{padding:7px 37px 7px 37px}	
-
-	.login-main .form-group{padding-bottom:3px }
-
-	.login-main .form-group .form-control{font-size:18px;padding:8px 10px}
-
-	.login-main p,.registered-main p{font-size:18px; }
-
-	.forgot-pass 	{font-size:14px;}
-
-	.registered-main{padding:15px; }
-
-	.registered-main p{margin-bottom:15px }
-
-	
-
-	.reset-button{height:32px;}
-
-	.photo-video-title{font-size:14px}
-
-	.video-upload .input-file-trigger{font-size:18px;}
-
-	.update-location{font-size:18px;}
-
-	.select-style select{padding:6px 30px 6px 8px;font-size:16px;}
-	.form-control {font-size:16px;padding:6px;}
-	
-
-}
-
-@media screen and (min-width:360px) and (max-width:374px) {
-
-	
-
-	.topbar 	{padding:8px 0 8px 0 }
-
-	.view-website {font-size:17px;}
-
-	.selectric .label{margin:0 25px 0 0px}
-
-	.filter-link{padding-right:20px}
-
-	.filter-link2{padding-right:20px}
-
-	.selectric-items li {line-height:16px;font-size:14px;padding:8px 10px;}
-
-	.user-div	{width:110px;}
-
-	.user-img,.user-div .MultiFile-label span{height:110px}
-
-	.user-title {font-size:20px;}	
-
-	.fltr-icon img{height:27px}
-
-	.fltr-title {font-size:13px;padding-top:3px}
-
-	.for-rating .favourite-dtl h3{padding:15px 0 5px 0}
-
-	.for-rating .rating-div{position:absolute;right:0px;top:12px}	
-	.for-rating .rating-right .rating-div{position:static;}
-
-	.km-away 	{font-size:18px;line-height:20px;right:0px}
-
-	
-
-	.invite-box .favourite-dtl h3{padding-top:5px;padding-bottom:0px;}
-
-	.for-rating .rating-div{margin-bottom:3px }
-
-	.invite-box .rating-review 	{top:-2px;position:absolute;right:0px;}
-
-	.invite-box .rating-div{position: static}
-
-	.rating-div img{width:14px}
-
-	.invite-box .favourite-dtl h3 p{padding-top:0px;padding-bottom:7px;}
-
-	.rating-review .button{width:125px;font-size:14px;padding:3px 0px;}
-
-	.js .input-file-trigger{background-position:15px center}
-
-	
-
-	.make-profile 		{padding:30px 30px 15px 30px}
-
-	.map-icon 			{width:80px;}	
-
-	.make-profile-div 	{padding:13px 0 20px 0}
-
-	.make-profile-div .button{font-size:20px;padding-left:35px;padding-right:35px;display:block;white-space:nowrap}
-
-	.skip-div a			{font-size:20px;}
-
-	
-
-	.fancybox-inner .sub-link-main{width:320px}
-
-	.sub-link-list {padding:0 15px}
-
-	.sub-link-title {font-size:20px;padding:10px 0px;}
-
-	.sub-link-list a {padding:10px 0px;font-size:17px;}
-
-	
-
-	.loged-user 	{padding:10px 20px 10px 10px}
-
-	.loged-user-img{width:55px;height:55px;}
-
-	.loged-user-title{font-size:18px;margin-left:70px;/*padding:14px 30px 14px 0px*/}
-	.loged-user-title-sub{height:55px;}
-	.menu-links 	{padding:10px 0px 10px 0px}
-
-	.menu-links li a{font-size:17px;padding:8px 0px 8px 18px }	
-
-	.menu-links li .menu-icon{width:33px;margin-right:15px  }
-
-	.main-user 	{background-size:18px auto}
-
-	
-
-	.subuser .loged{margin:12px 0 0px 0}
-
-	.subuser .add-account {margin-top:7px;}
-
-	
-
-	.listing-div span{font-size:13px;padding:0px 3px;line-height:15px}
-
-	.listing-div .last-seen {font-size:12px;}
-
-	
-
-	.budget-div,.duration-div{font-size:16px;}
-
-	.typeAmt input,.daysAmt input{font-size:16px;padding:0px 2px }
-
-	.typeAmt input{width:50px }
-
-	.daysAmt input{text-align:right;width:35px }
-
-	.budget-duration{padding-bottom:10px; }
-
-	.hours-minutes div.second-div{margin-left:135px;  }
-
-	.input-numbox .num-box{width:50px;height:35px;padding:0px 0px;font-size:20px;margin-right:5px; }
-
-	.input-numbox input{height:35px;padding:2px 0px;font-size:20px;}
-
-	.second-div .usd-span {font-size:20px;margin-top:4px;}
-
-	
-
-	.div-row .left-div, .cv{font-size:15px}
-
-	.div-row .right-div {font-size:15px}
-
-	.cv-dtl p{font-size:15px}
-
-	.listing-row h3 {font-size:16px;}
-
-	.confirmation p{font-size:17px }
-
-	.confirmation .pay-tok{font-size:20px!important }
-
-	.termscondition{font-size:16px}
-
-	
-
-	.inv-pro-row 		{font-size:16px;padding:4px 0px 4px 0px;line-height:18px}
-
-	.inv-pro-row label 	{font-size:15px;width:140px;}
-
-	.inv-pro-row .prfl-dtl{margin-left:140px}
-
-	.advance-search .select-style{background-position:96% 46%}
-
-	.advance-search .select-style select,.advance-search .textarea{padding:10px 15px;font-size:20px;}
-
-	.select-all {font-size:18px;}
-
-	.control__indicator, .thumb-row .control__indicator, .thumb-row .control{width:22px;height:22px}
-
-	.feedback-icon {width:27px;}
-
-	.feedback-div h3{width:88%;font-size:16px;line-height:18px}
-
-	.feedback-main .form-control{height:100px}
-
-	.feedback-main .feedTextarea textarea{font-size:16px;line-height:18px;padding:5px 10px}
-
-	.three-btns-div .button{padding:8px 7px}
-
-}
-
-@media screen and (min-width:300px) and (max-width:359px) {
-
-	.form-control{padding: 4px 30px 4px 8px;font-size: 12px;}	
-
-	.topbar 	{padding:5px 0 5px 0}
-
-	.view-website {font-size:15px;}
-
-	.selectric .label{margin:0 25px 0 0px}
-
-	.filter-link{padding-right:20px}
-
-	.filter-link2{padding-right:20px}
-
-	.selectric .label, .filter-link{font-size:16px;}
-
-	.selectric .label, .filter-link2{font-size:16px;}
-
-	.selectric-items li {line-height:16px;font-size:14px;padding:8px 10px;}
-
-	.fltr-icon img{height:25px}
-
-	.fltr-title {font-size:12px;padding-top:3px}
-
-	.user-div	{width:100px;}
-
-	.user-img,.user-div .MultiFile-label span{height:100px}
-
-	.user-title {font-size:18px;}
-
-	.select-style select,.talent-textarea{padding:4px 30px 4px 8px;font-size:12px;}
-
-	/*.select-style select{padding: 10px 8px;!important}*/
-
-	.left-select .select-style select{padding:4px 0px;font-size:16px;}
-
-	.single-row{height:70px  }
-
-	.double-row{height: 110px  }
-
-	.js .input-file-trigger {padding:15px 15px 15px 35px;font-size:14px;background-size:17px auto!important;background-position:15px center}
-
-	
-
-	
-
-	.make-profile 		{padding:20px 17px 10px 17px}
-
-	.map-icon 			{width:80px;}	
-
-	.make-profile-div 	{padding:13px 0 20px 0}
-
-	.make-profile-div .button{font-size:18px;padding-left:35px;padding-right:35px;display:block;white-space:nowrap}
-
-	.skip-div a			{font-size:18px;}
-
-	
-
-	.fancybox-inner .sub-link-main{width:280px}
-
-	.sub-link-list {padding:0 15px}
-
-	.sub-link-title {font-size:18px;padding:10px 0px;}
-
-	.sub-link-list a {padding:9px 0px;font-size:16px;}
-
-	
-
-	.menu-main 		{width:87%}
-
-	.loged-user 	{padding:10px 20px 10px 10px}
-
-	.loged-user-img {width:50px;height:50px;}
-
-	.loged-user-title{font-size:17px;margin-left:65px;/*padding:14px 30px 14px 0px;*/}
-	.loged-user-title-sub{height:50px;}
-	.menu-links 	{padding:10px 0px 10px 0px}
-
-	.menu-links li a{font-size:16px;padding:8px 0px 8px 18px}	
-
-	.menu-links li .menu-icon{width:32px;margin-right:15px}
-
-	.main-user 		{background-size:18px auto}
-
-	
-
-	.subuser .loged{margin:10px 0 0px 0}
-
-	.subuser .add-account {margin-top:5px;}
-
-	.listing-row h3 {font-size:16px;}
-
-	.listing-div span{font-size:11px;padding:0px 4px;line-height:15px}
-
-	.listing-div .last-seen{font-size:10px;}
-
-	.input-numbox .num-box{width:42px;height:30px;padding:0px 0px;font-size:18px;margin-right:5px;}
-
-	.input-numbox input{height:30px;padding:2px 0px;font-size:18px;}
-
-	.second-div .usd-span {font-size:18px;margin-top:3px;}
-
-	
-
-	.div-row .left-div, .cv{font-size:14px}
-
-	.div-row .right-div {font-size:14px}
-
-	.cv-dtl p{font-size:15px}
-
-	
-
-	.listing-row h3 {font-size:17px;}
-
-	.confirmation p{font-size:16px }
-
-	.confirmation .pay-tok{font-size:19px!important }
-
-	.termscondition{font-size:14px}
-
-	
-
-	.inv-pro-row 		{font-size:15px;padding:3px 0px 4px 0px;line-height:17px}
-
-	.inv-pro-row label 	{font-size:14px;width:130px;}
-
-	.inv-pro-row .prfl-dtl{margin-left:130px}
-
-	.advance-search .select-style{background-position:96% 46%}
-
-	.advance-search .select-style select,.advance-search .textarea{padding:8px 15px;font-size:18px;}
-
-	.select-all {font-size:17px;}
-
-	.control__indicator, .thumb-row .control__indicator, .thumb-row .control{width:20px;height:20px}
-
-	.feedback-icon {width:25px;}
-
-	.feedback-div h3{width:88%;font-size:15px;line-height:18px}
-
-	.feedback-main .form-control{height:100px}
-
-	.feedback-main .feedTextarea textarea{font-size:15px}
-	.three-btns-div .button{padding:8px 3px;font-size:11px;}
-}
-
-@media screen and (min-width:300px) and (max-width:575px) {
-	.login-register .col-xs-6 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0 50%;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-}
-
-/*Retina graphics!*/
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-
-	   only screen and (min--moz-device-pixel-ratio: 1.5),
-
-	   only screen and (min-device-pixel-ratio: 1.5){
-
-
-
-	.replace-2x {
-
-		font-size: 1px;
-
-	}
-
-}
-
-@media screen and (max-width: 360px){
-	.prfl-div .prfl-dtl {
-		font-size: 12px;
-	}
+@media screen and (min-width:781px) and (max-width:1200px) {
+
+    .single-row{height:80px  }
+
+    .double-row{height: 110px  } 
+
+}
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .our-story { width:600px;margin:0 auto}
+
+    .blacking-wing-main .button {font-size:25px}
+
+}
+
+@media screen and (min-width:10px) and (max-width:430px) {
+
+    .main,.container,.bottom-holder,.wrapper,.menu-wrapper,.meet-invite{width:100%}
+
+    .menu-wrapper.active{width:100%;}
+
+}
+
+
+
+/*@media screen and (min-width:576px) and (max-width:780px) {*/
+
+@media screen and (max-width:430px) {
+
+    .review-popup{width:100%;padding:15px; }
+
+    .popupbox 			{width:95%;padding:15px}
+
+    /*.form-control 	{font-size:25px;padding:20px 10px;line-height:30px;}
+
+    .select-style select,.more-talent{padding:15px 10px;}
+
+    .notification-links td a,.notify-title{font-size:22px;}
+
+    .update-location{padding:12px 0}	
+
+    .date-time 	{font-size:23px;padding:0px 0px 3px 0}
+
+    .job-thumb 	{margin-bottom:20px}
+
+    .invite-box .rating-review .button{font-size:22px}
+
+    .location-main{padding:20px 0px;}
+
+    .location-pin{width:35px; }
+
+    .send-mesage{font-size:20px;line-height:22px;padding:10px 25px}
+
+    .location-address{margin:0 130px 0 60px }
+
+    .location-address p{font-size:22px;line-height:25px;}
+
+    .wordaapp{font-size:19px;margin:10px 0 10px 60px;}
+
+    .butchers{font-size:19px;padding:10px 0 10px 60px}
+
+    
+
+    .type-message-main{padding:7px 0px}
+
+    .send-btn 	{width:61px;height:61px;padding:5px 10px 6px 14px}
+
+    .send-btn img {width:100%}
+
+    .camera-link, .attach-link{width:30px;margin:4px 20px 0 0}
+
+    .camera-link{margin-top:7px }
+
+    .camera-link img, .attach-link img{width:100%}
+
+    .type-message{margin:0 70px 0 0;padding:10px 0;height: auto}
+
+    .input-msg{font-size:22px;padding:7px 0 7px 20px}
+
+    .type-input-div{margin:0 115px 0 0}
+
+    .for-rating .favourite-detail p{line-height:40px}
+
+    .single-row{height:80px}
+
+    .double-row{height: 110px}	
+
+    
+
+    .loged-user {padding:15px 20px}
+
+    .loged-user-img,.loged-user-img div{width:90px;height:90px}
+
+    .loged-user-title{font-size:30px;margin-left:115px;padding:25px 50px 25px 0px;background-size:35px auto}
+
+    .menu-links {padding:20px 0px 20px 0px}
+
+    .menu-links li .menu-icon{width:35px;}
+
+    .menu-links li a{padding:10px 30px 10px 45px;font-size:25px}
+
+    .subuser .loged{margin:25px 0 0px 0}
+
+    
+
+    .about-main h2{font-size:30px;}
+
+    .about-main p{font-size:22px;line-height:27px  }
+
+    
+
+    .num-box 	{width:85px;height:50px;}
+
+    
+
+    
+
+    .inv-pro-row 		{font-size:20px;padding:7px 0px 7px 0px;line-height:25px }
+
+    .inv-pro-row label 	{ }
+
+    .inv-pro-row .prfl-dtl{ }
+
+    .feedback-div h3{width:85% }*/
+
+}
+
+/*@media screen and (min-width:576px) and (max-width:767px) {*/
+
+@media screen and (min-width:414px) {
+
+    .select-style select{font-size:22px}
+
+    .view-website{font-size:20px}
+
+    .selectric .label{line-height:24px;font-size:20px;padding-top:17px;padding-bottom:17px}
+
+    .filter-link{line-height:24px;font-size:21px;background-size:20px auto;padding-top:17px;padding-bottom:17px}
+
+    .filter-link2{line-height:24px;font-size:21px;background-size:20px auto;padding-top:17px;padding-bottom:17px}
+
+    .selectric .button{width:20px}
+
+    .left-select .selectric-items{width:200px!important; }
+
+    .selectric-items li{line-height:19px;font-size:17px;padding:10px }
+
+    .user-div{width:160px;}
+
+    .user-img,.user-div .MultiFile-label span{height:160px}	
+
+    .bell-div{width:30px;top:5px}
+
+
+
+    .listing-row h3{font-size:25px;}
+
+    .listing-div span{font-size:14px;padding:0px 15px;  }
+
+    .listing-div .last-seen{font-size:19px; }
+
+    .listing-div{background-size:auto 20px}
+
+
+
+    .blacking-wing-main .favourite-dtl h3{padding-bottom:10px }
+
+    .blacking-wing-main .favourite-dtl h3 .km{top:2px }
+
+    .blacking-wing-main .rating-div {margin-bottom:13px;}
+
+    .blacking-wing-main .reviews-btn{font-size:22px; padding:7px 40px 7px 40px;line-height:25px }
+
+
+
+    .photo-video-title{padding-bottom:10px}
+
+    .uploadthumb{margin:0px 2% 2% 0;width:31.3%; }
+
+    #photo-upload{width:31.3%;height:160px}
+
+
+
+    .reviews-profile-verified .rating-div {margin-bottom:15px;margin-top:0px }
+
+    .reviews-profile-verified .rating-div img{width:28px;}
+
+    .three-btns-div .button{font-size:20px;padding:15px 0;width:119px;margin-right:2px}
+
+
+
+    .blacking-wing-main .user-div{width:150px;height:150px}
+
+    .blacking-wing-main .user-div .MultiFile-label span{height:150px}
+
+    .blacking-wing-main .favourite-dtl{margin:0 0 0 175px}
+
+    .prfl-div label,.div-row .right-div{font-size:22px;}
+
+    .prfl-div .prfl-dtl,.div-row .left-div, .cv,.div-row .left-div, .cv{font-size:24px;}
+
+    .cv-dtl p 	{font-size:20px;}
+
+    .cv-dtl{padding:18px 30px}
+
+    .job-row h2 	{font-size:25px;}
+
+
+
+    .for-rating .favourite-holder{width:85px;height:85px;}
+
+    .for-rating .favourite-dtl {margin: 0 0 0 110px;}
+
+    .for-rating .favourite-dtl h3{padding:21px 0 5px 0 }
+
+    .for-rating .rating-div{top:20px; }
+
+    .for-rating .rating-div img{width:23px; }
+
+    .for-rating .rating-div .number{font-size:16px; }
+
+    .for-rating .favourite-detail p{line-height:35px }
+
+    .budget-div,.duration-div{font-size:26px;}
+
+
+
+    .photo-job-video{height:auto;bottom:60px}
+
+    .photo-job-video .row div{padding:16px 0}
+
+    .photo-job-video a{font-size:18px;padding:2px 0}
+
+    .photo-job-video a.post-a-job {border-left:2px dashed #999999;border-right:2px dashed #999999;}
+
+
+
+    .for-rating .favourite-dtl p{font-size:19px;line-height:25px;padding-top:0px;  }
+
+    .bottom-holder{height:60px}
+
+    .home-link, .menu-link{width:35px;} 
+
+    .home-link 	{top:5px }
+
+    .work-link, .hire-link{font-size:20px;height:45px;line-height:37px;width:85px;}
+
+    .work-link{left:20%;}
+
+    .hire-link{right:20%;}
+
+    .plus-link 		{height:45px;line-height:42px;width:50px;margin-left:-20px;font-size:40px}
+
+    .menu-link 	{top:8px}
+
+    .meet-invite 	{height:60px;bottom:60px}
+
+    .meet-invite a {padding:10px 0 7px 0 }
+
+    .meet-invite a .meet-icon{height:22px;}
+
+    .meet-invite a span{font-size:18px; }
+
+    .meet-invite a span.mi-title{line-height:23px;}
+
+
+
+    .make-profile 		{padding:50px 60px 20px 60px;}
+
+    .map-icon 			{width:100px;}	
+
+    .make-profile-div 	{padding:20px 0 30px 0; }
+
+    .make-profile-div .button{font-size:25px;padding-left:70px;padding-right:70px;display:block;white-space:nowrap}
+
+    .skip-div a			{font-size:25px;}	
+
+    .fltr-title  		{font-size:18px;}	
+
+
+
+    .work-hire-main 	{padding:7px 0}
+
+    .work-hire-main .container{}
+
+}
+
+@media screen and (min-width:480px) and (max-width:639px) {
+
+}
+
+@media screen and (max-width:767px){
+
+    .main{box-shadow:0 0px 0px rgba(0,0,0,0)}
+
+}
+
+@media screen and (min-width:768px){	
+
+    /*.menu-main	 		{width:600px;}*/
+
+    header.active .sub-header,.main.active,.bottom-holder.active .sub-bottom-bar,.meet-invite.active .meet-invite-sub{transform:translateX(-74%)}	
+
+}
+
+@media screen and (min-width:414px) and (max-width:767px) {
+
+    .menu-main 	{width:75%;}	
+
+    .main.active{transform:translateX(-75%)}
+
+    header.active .sub-header,.main.active,.bottom-holder.active .sub-bottom-bar,.meet-invite.active .meet-invite-sub{transform:translateX(-75%)}	
+
+}
+
+@media screen and (min-width:300px) and (max-width:413px) {
+
+    .menu-main 	{width:84%;}	
+
+    header.active .sub-header,.main.active,.bottom-holder.active .sub-bottom-bar,.meet-invite.active .meet-invite-sub{transform:translateX(-80%)}	
+
+}
+
+@media screen and (min-width:300px) and (max-width:375px) {
+
+    .main 	{padding-bottom:85px;}	
+
+}
+
+/*@media screen and (min-width:300px) and (max-width:575px) {*/
+
+@media screen and (min-width:300px){
+
+    .selectric-items{left:-10px}
+
+    .selectric-items {top:120%;}
+
+    .selectric-items::before{top:-12px;width:20px;height:12px;}
+
+    .left-select .selectric-items{width:200px!important; }
+
+    .left-select {width:43%;}
+
+    .selectric .label,.filter-link{font-size:16px;line-height:20px;height:auto;padding-bottom:10px;padding-top:10px}
+
+    .selectric .label,.filter-link2{font-size:18px;line-height:20px;height:auto;padding-bottom:10px;padding-top:10px}
+
+    .filter-link {padding-right:25px}
+
+    .filter-link2 {padding-right:25px}
+
+    .triangle-div span{height:12px;margin-right:43px}
+
+    header .container{padding-top:0px;padding-bottom:0px  }
+
+    .form-control{font-size:22px;line-height:27px;padding:15px 10px  }
+
+    .single-row{height:60px  }
+
+    .double-row{height: 115px  }
+
+    .write-feedback{height:200px;overflow:auto }
+
+    .form-main 	{padding-top:20px}	
+
+    .user-title {padding:25px 0 20px 0;}
+
+    .talent-textarea{height:150px }
+
+
+
+    .messages-chat{padding:15px 0}
+
+    .arrow-left {width:35px;margin-right:10px }
+
+    .chat 		{padding:10px 5px 30px 5px}
+
+    .bubble 	{padding:15px 20px 40px 20px}
+
+    .me 		{margin:0px 20% 0px 0px}
+
+    .you 		{margin:0px 0px 0px 20%}
+
+    .bubble p 	{font-size:18px;line-height:normal}
+
+    .msg-dt-tm 	{font-size:16px;}
+
+
+
+    .type-message-main{padding:7px 0px}
+
+    .send-btn 	{width:45px;height:45px;padding:5px 7px 6px 10px}
+
+    .send-btn img {width:100%}
+
+    .camera-link, .attach-link{width:23px;margin:5px 13px 0 0}
+
+    .camera-link{margin-top:7px }
+
+    .camera-link img, .attach-link img{width:100%}
+
+    .type-message{margin:0 50px 0 0;padding:5px 0;height:45px }
+
+    .input-msg{font-size:18px;padding:5px 0 5px 15px}
+
+    .type-input-div{margin:0 75px 0 0}
+
+    .messages-header h3{font-size:20px;padding-left:10px}
+
+    .messages-header h3 span{font-size:15px}
+
+
+
+    .listing-row 	{padding:0px 0 10px 10px}
+
+    .listing-row h3 {font-size:20px;}
+
+    .listing-div span{font-size:14px;padding:0px 5px;line-height:15px}
+
+    .listing-div .last-seen{font-size:14px;}
+
+    .listing-div 	{background-size:auto 15px}
+
+    .listing-div span::after{right:-2px;top:2px;height:10px}
+
+    .listing-div span.last-seen::after{right:-4px}
+
+
+
+    .three-btns-div .button{font-size:20px;padding:15px 0;width:110px}
+
+
+
+    .photo-job-video{height:auto;bottom:50px}
+
+    .photo-job-video .row div{padding:15px 0}
+
+    .photo-job-video a{font-size:17px;}
+
+
+
+    .photo-job-video a.post-a-job{border-left:2px dashed #999999;border-right:2px dashed #999999;padding:2px 0}
+
+    .for-rating .favourite-dtl p{font-size:17px;line-height:24px }
+
+
+
+    .select-all{margin-left:25px;font-size:28px}
+
+    .km-left		{font-size:16px;}
+
+    .last-seen-right{font-size:14px;}
+
+
+
+    .invite-main 	{padding:15px 15px 50px 15px}
+
+    .invite-main h2 {padding-top:0px;font-size:25px;}
+
+    .invite-box .favourite-dtl h3{padding-top:0px}
+
+    .rating-review .button{font-size:16px;padding:5px 10px}
+
+    .filter-box 	{padding:10px 0}
+
+    .sub-link-title,.sub-link-list a{white-space:normal;}
+
+
+
+    .subuser .loged{margin:20px 0 0px 0}
+
+
+
+    .loged-user 	{box-shadow:0 3px 3px rgba(0,0,0,0.18)}
+
+
+
+    .MultiFile-remove{font-size:25px;width:25px;height:25px;}
+
+    .MultiFile-title {font-size:18px;}
+
+
+
+    #TermsCondition 	{padding:0 5px }
+
+    #TermsCondition input{}
+
+    #TermsCondition h2 	{font-size:18px;}
+
+    #TermsCondition h3 	{font-size:15px;padding-bottom:0px;}
+
+    #TermsCondition p 	{font-size:13px;line-height:17px;}
+
+
+
+    .update-location{font-size:25px;}
+
+    .notification {padding:3px 7px;}
+
+}
+
+/*@media screen and (min-width:414px) and (max-width:575px){*/
+
+@media screen and (min-width:414px){
+
+    /*header .container{padding-top:18px;padding-bottom:18px}*/
+
+    .selectric-items li {line-height:19px;font-size:16px;padding:10px;}
+
+    .selectric .label,.filter-link{font-size:18px;line-height:22px;padding-bottom:10px;padding-top:10px}
+
+    .selectric .label,.filter-link2{font-size:18px;line-height:22px;padding-bottom:10px;padding-top:10px}
+
+    .filter-link{background-size:15px auto;}
+
+    .filter-link2{background-size:15px auto;}
+
+    .selectric .button{background-size:17px auto;}
+
+    .bell-div 	{width:20px;margin-left:-10px;top:10px;}
+
+    .view-website {font-size:17px;}
+
+    .job-posted-user{font-size:15px;line-height:16px}
+
+    .job-title 	{font-size:13px;}
+    .job-title a{line-height: 16px;font-size:13px;display:inline-block }
+
+    .likes-div	{font-size:18px;}
+
+    .fltr-icon img{height:35px}
+
+    .filter-box {padding:10px 0;}
+
+    .fltr-title {font-size:15px;padding-top:5px}
+
+
+
+    .bottom-holder{height:55px;}
+
+    .work-hire-main {padding:12px 0}
+
+    .work-hire-main .container{height:31px }
+
+    .home-link 	{left:5%;top:0px;width:30px;   }
+
+    .menu-link{width:21px;top:2px }
+
+    .work-link,.hire-link{padding:0px 0px 0px 0px;font-size:19px;height:31px;width:72px;border-radius:10px;line-height:31px}
+
+    .work-link 	{left:19%;}
+
+    .hire-link	{right:19%;}
+
+    .menu-link 	{right:5%;top:4px}
+
+    .plus-link 	{width:33px;height:30px;margin-left:-16px;font-size:25px;line-height:27px}
+
+    h2 			{font-size:27px }
+
+    .button 	{font-size:25px }
+
+    .width325 	{width:230px }
+
+    .plus-sign 	{width:35px;height:35px;font-size:30px;margin-left:-17px;bottom:-17px;line-height:35px }
+
+    .user-div	{width:160px;}
+
+    .user-img,.user-div .MultiFile-label span{height:160px}
+
+    .user-title {font-size:28px;}
+
+    .select-style select,.talent-textarea{padding:10px 34px 10px 8px;font-size:18px;text-overflow:ellipsis; }
+    .form-control {padding:10px 34px 10px 8px;font-size:18px;line-height:27px;}
+
+    /*.select-style select{padding: 10px 8px;!important}*/
+
+    .left-select .select-style select{ padding: 10px 8px 10px 0px; font-size: 18px;}
+
+    .left-select .select-style{margin:0px;}
+
+    .select-style{background-position:93% 47%;background-size:18px auto}
+
+    #other-test {width:150px;height:150px;/*background-size:53px auto*/}
+
+    #other-test:hover{/*background-size:53px auto*/}
+
+    .notify-title {font-size:20px;}
+
+    .notification-links td a{padding-bottom:9px;}
+
+    .notification-links td a img,.notification-links td a .tabs-title{height:30px;}
+
+    .notification-links td a img{margin:0 15px}
+
+    .notification-links td a .tabs-title{margin:0 0 0 -3px;}
+
+    .bell-notify{width:6px;height:6px;}
+
+    .notification-links td a{font-size:20px;}
+
+    .notification-links td a.active{padding-bottom:7px;}
+
+    .notification-links td:first-child .tabs-title,.notification-links td:last-child .tabs-title{padding:5px;}
+
+
+
+    .update-location{padding:7px 0}
+
+    .update-location img{height:27px;}
+
+    .job-thumb 	{margin-bottom:10px}
+
+    .job-thumb-holder{width:105px;height:105px;}
+
+    .job-dtl 	{padding:0 0 0 15px;margin-left:105px;}
+
+    .meeting-row,.meeting-row .km {font-size:20px;}
+
+    .job-dtl h3 {font-size:25px;padding:3px 0px }
+
+    .date-time 	{font-size:16px;padding:0px 0px 3px 0}	
+
+
+
+    .location-main{padding:10px 0px;}
+
+    .location-pin{width:30px; }
+
+    .send-mesage{font-size:16px;line-height:17px;padding:10px 10px }
+
+    .location-address{margin:0 95px 0 45px }
+
+    .location-address p{font-size:18px;line-height:19px; }	
+
+    .wordaapp{font-size:17px;margin:10px 0 10px 45px;}
+
+    .butchers{font-size:17px;padding:10px 0 10px 45px}
+
+
+
+    .favourite-box 	{padding:10px; }
+
+    .favourite-holder 	{width:75px;height:75px;}
+
+    .favourite-dtl {margin: 0 0 0 95px; }
+
+    .favourite-dtl h3{font-size:22px;padding-bottom:0px;padding-top:17px }
+
+    .favourite-dtl h3 .km{font-size:19px; }
+
+    .rating-div	.number{font-size:18px;}
+
+    .rating-div img{width:20px}
+
+    .favourite-detail {margin-top:15px;margin-bottom:10px;padding:0 0px 0 15px}
+
+    .favourite-detail p{font-size:17px;line-height:19px;padding:5px 0;}
+
+    .pipe 			{margin:0 5px}
+
+
+
+    .messages-main	{padding-top:0px}
+
+    .messages-box 	{padding:7px 5px 7px 7px}
+
+    .msgimg-holder 	{width:50px;height:50px;}
+
+    .messages-box h3{margin-left:10px;font-size:18px}
+
+    .messages-box h3 span{font-size:16px}
+
+    .msg-dtl 		{font-size:17px;margin-top:-12px;}
+
+    .msg-dtl div,.msg-dtl div span{width:25px;height:25px}
+
+    .msg-dtl div span{font-size:17px;line-height:25px }
+
+
+
+    .messages-header h3{font-size:22px;}
+
+    .messages-header h3 span{font-size:17px}
+
+
+
+    .listing-row	{padding:5px 0 15px 10px}
+
+    .listing-row h3 {font-size:18px;}
+
+    .listing-div span{font-size:13px;padding:0px 3px;line-height:17px  }
+
+    .listing-div span::after{height:12px }
+
+    .listing-div .last-seen{font-size:14px;}
+
+
+
+    .blacking-wing-main .user-div{width:100px;height:100px }
+
+    .blacking-wing-main .user-div .MultiFile-label span{height:100px}
+
+    .blacking-wing-main  .favourite-dtl{margin:0 0 0 115px }
+
+    .blacking-wing-main .favourite-dtl h3{padding-bottom:0px }
+
+    .blacking-wing-main .rating-div{margin-bottom:7px;margin-top:0px}
+
+    .blacking-wing-main .rating-div img{width:15px;}
+
+    .blacking-wing-main .reviews-btn{font-size:16px;padding-left:30px;padding-right:30px  }
+
+
+
+    .photo-video-title{padding-bottom:10px}
+
+    .uploadthumb{margin:0px 2% 2% 0;width:31.3%; }
+
+    #photo-upload{width:31.3%;height:120px}
+
+
+
+
+
+    .reviews-profile-verified .user-div{width:100px;height:100px }
+
+    .reviews-profile-verified  .favourite-dtl{margin:0 0 0 115px }
+
+    .reviews-profile-verified .favourite-dtl h3{padding-bottom:0px }
+
+    .reviews-profile-verified .rating-div{margin-bottom:7px;margin-top:0px}
+
+    .reviews-profile-verified .rating-div img{width:15px;}
+
+    .three-btns-div .button{font-size:14px;padding:10px 10px;width:auto;margin-right:2px}
+
+
+
+    .prfl-div 			{padding:7px }
+
+    .prfl-div label 	{font-size:17px;}
+
+    .prfl-div .prfl-dtl {font-size:18px;}
+
+    .div-row .left-div, .cv{font-size:18px}
+
+    .div-row .right-div {font-size:17px}
+
+    .div-row 	{margin-bottom:15px }
+
+    .cv-dtl 	{padding:10px 15px;}
+
+    .cv-dtl p 	{font-size:16px;line-height:20px}
+
+    .photo-video{margin:0 -5px}
+
+    .photo-div 	{padding:5px}
+
+    .photo-div a img.play-icon {width:50px;margin:-25px 0 0 -25px}
+
+
+
+    .job-row h2 	{font-size:25px;}	
+
+    .detail-div h4 	{font-size:20px;}
+
+    .detail-div p, .ollist li{font-size:17px;line-height:normal}	
+
+    .budget-div,.duration-div{font-size:16px;}
+
+    .budget-duration{padding-bottom:10px; }
+
+    .posted-dt 	{font-size:17px;padding-top:10px;}
+
+
+
+    .for-rating .favourite-holder {width:55px;height:55px;}
+
+    .for-rating .favourite-dtl {margin:0 0 0 65px;}
+
+    .for-rating .favourite-dtl h3 {padding:10px 0 5px 0;font-size:20px;}
+
+    .for-rating .rating-div{top:6px;}
+
+    .for-rating .rating-div img{width:15px; }
+
+
+
+    .km-away{font-size:20px;right:0px}
+
+
+
+    .intrested-edit-cancel .button{font-size:18px }
+
+    .intrested-div	{padding-right:5px; }
+
+    .edit-div		{padding-left:10px;padding-right:10px;}
+
+    .cancel-div		{padding-left:5px }
+
+
+
+    .post-a-job-main{padding:20px 15px;}
+
+    .post-a-job-main h2{font-size:30px}
+
+    .job-input 		{padding:10px 15px;font-size:20px;}
+
+
+
+    .select-all		{margin-bottom:25px;}
+
+
+
+    .meet-invite 	{height:52px;bottom:53px}
+
+    .meet-invite a {padding:7px 0 5px 0 }
+
+    .meet-invite a .meet-icon{height:20px;}
+
+    .meet-invite a span{font-size:16px; }
+
+    .meet-invite a span.mi-title{line-height:18px;}	
+
+
+
+    .invite-box .favourite-dtl h3{padding-top:5px }
+
+    .invite-box .favourite-dtl h3 p{padding-top:0px;padding-bottom:0px; }
+
+    .rating-review .button{width:135px;padding:5px 0px  }
+
+    .rating-review .rating-div{margin-bottom:3px;font-size:15px}
+
+    .location-text p{font-size:22px;line-height:25px}
+
+    .location-text .font-size24{font-size:20px!important;}
+
+    .exact-location {padding-top:5px }
+
+    .exact-location p{font-size:19px;line-height:25px}
+
+    .butchers-flattening-div p{font-size:19px;}
+
+    .date-time-div 	{font-size:25px}
+
+
+
+    .photo-shooting{font-size:20px;padding-top:9px;}
+
+    .allow-div .control,.control__not_alowed{font-size:15px }	
+
+
+
+    .hours-minutes .box-shadow{padding:7px 15px }
+
+    .hours-minutes p{font-size:15px;line-height:18px }
+
+    .num-box 		{width:55px;font-size:21px;margin:0px 5px 0 0;height:40px;line-height:28px;padding:3px 0px   }
+
+    .input-numbox input {height:40px;padding:3px 0px;font-size:21px;}
+
+    .hours-minutes div.second-div{margin-left:152px }	
+
+    .second-div .usd-span{font-size:20px;margin-top:5px}
+
+    .meeting-topics{padding:10px 0 }
+
+    .meeting-topics p{font-size:20px}
+
+    .share-experience p{font-size:20px;padding-top:0px; }
+
+    .meting-note{font-size:16px;}
+
+
+
+    .js .input-file-trigger {padding:15px 15px 15px 45px;font-size:19px;background-size:24px auto!important}
+
+
+
+    .login-main .button,.registered-main .button{font-size:22px; }
+
+    .login-main .button{padding:7px 50px 7px 50px}
+
+    .login-main .form-group{padding-bottom:5px }
+
+    .login-main p,.registered-main p{font-size:22px; }
+
+    .forgot-pass 	{font-size:18px;}
+
+
+
+    .make-profile 		{padding:40px 40px 20px 40px}
+
+    .map-icon 			{width:100px;}	
+
+    .make-profile-div 	{padding:20px 0 30px 0}
+
+    .make-profile-div .button{font-size:22px;padding-left:40px;padding-right:40px;display:block;white-space:nowrap}
+
+    .skip-div a			{font-size:25px;}
+
+
+
+    .fancybox-inner .sub-link-main{width:370px}
+
+    .sub-link-list {padding:0 15px}	
+
+    .sub-link-title {font-size:24px;padding:14px 0px;}
+
+    .sub-link-list a {padding:11px 0px;font-size:20px;}
+
+
+
+
+
+    .loged-user 	{padding:10px 20px 10px 10px}
+
+    .loged-user-img{width:60px;height:60px;}
+    .loged-user-title-sub{height:60px;}
+    .loged-user-title{font-size:17px;margin-left:75px;/*padding:14px 30px 14px 0px;*/}
+
+    .menu-links 	{padding:10px 0px 10px 0px}
+
+    .menu-links li a{font-size:19px;padding:8px 0px 8px 22px }	
+
+    .menu-links li .menu-icon{width:35px;margin-right:20px  }
+
+    .main-user 	{background-size:20px auto}
+
+
+
+    .subuser .loged{margin:12px 0 0px 0}
+
+    .subuser .add-account {margin-top:7px;}	
+
+
+
+    .reset-button{height:50px; }
+
+    .photo-video-title{font-size:18px}
+
+
+
+    .about-main h2{font-size:25px;padding-top:15px }
+
+    .about-main p{font-size:18px;line-height:23px  }
+
+
+
+    .typeAmt input 		{width:50px;}
+
+    .typeAmt input,.daysAmt input{font-size:18px;padding:2px;color:#ef003e}
+
+    .daysAmt input 		{width:30px }
+
+
+
+    .plus-sign, #change-photo{width:38px;height:38px;bottom:-19px;margin-left:-19px;}
+
+    .confirmation p{font-size:18px }
+
+    .confirmation .pay-tok{font-size:22px!important }
+
+
+
+    .termscondition{font-size:17px}
+
+
+
+    .inv-pro-row 		{font-size:18px;padding:4px 0px 5px 0px;line-height:22px }
+
+    .inv-pro-row label 	{font-size:17px;width:160px; }
+
+    .inv-pro-row .prfl-dtl{margin-left:160px  }
+
+    .update-location{font-size:23px;}
+
+    .advance-search .select-style{background-position:96% 46%}
+
+    .advance-search .select-style select,.advance-search .textarea{padding:10px 15px;font-size:22px;}
+
+    .select-all {font-size:20px;}
+
+    .control__indicator, .thumb-row .control__indicator, .thumb-row .control{width:25px;height:25px}
+
+    .control{line-height:28px }
+
+    .feedback-icon 		{width:40px;}
+
+    .feedback-div h3{width:87%;font-size:18px;line-height:21px;}
+
+    .feedback-main .form-control{height:120px}
+
+    .feedback-main .feedTextarea textarea{font-size:18px;line-height:21px}
+
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+
+    .notification-links td:first-child .tabs-title,.notification-links td:last-child .tabs-title{padding:5px;}
+
+    .topbar {padding:8px 0 8px 0;}
+
+    .selectric-items li {line-height:17px;font-size:15px;padding:9px 10px;}
+
+    /*header .container{padding-top:15px;padding-bottom:15px  }*/
+
+    .bell-div 	{width:20px;margin-left:-10px;top:10px  }
+
+    .view-website {font-size:17px; }
+
+    .job-posted-user{font-size:15px; }
+
+    .job-title {font-size:13px; }
+
+    .likes-div{font-size:18px; }
+
+    .doted-main{width:40px }
+
+    .selectric .label 	{ }
+
+    .selectric .button,.filter-link{background-size:15px auto;}
+
+    .selectric .button,.filter-link2{background-size:15px auto;}
+
+    .fltr-icon img{height:30px}
+
+    .fltr-title {font-size:14px;padding-top:5px}	
+
+
+
+    .home-link 	{left:5%;top:3px;width:25px;}
+
+    .menu-link{width:21px;top:6px}
+
+    .work-link,.hire-link{padding:0px 0px 0px 0px;font-size:18px;height:31px;width:72px;border-radius:10px;line-height:30px  }
+
+    .work-link 	{left:17%;}
+
+    .hire-link	{right:17%;}
+
+    .menu-link 	{right:5%;top:10px}
+
+    .plus-link 	{width:33px;height:30px;margin-left:-16px;font-size:25px;line-height:26px}
+
+    h2 			{font-size:22px }
+
+    .button 	{font-size:21px }
+
+    .width325 	{width:185px }
+
+    .plus-sign 	{width:35px;height:35px;font-size:30px;margin-left:-17px;bottom:-17px;line-height:35px }
+
+    .user-div	{width:130px;}
+
+    .user-img,.user-div .MultiFile-label span{height:130px}
+
+    .user-title {font-size:22px;}
+
+    .talent-textarea{padding:4px 8px;font-size:18px;}
+
+    .select-style select{padding:6px 30px 6px 8px;font-size: 18px;}
+    .left-select .select-style select{font-size:16px;}
+    .form-control {padding:6px 8px 6px 8px;font-size: 18px;}
+
+    .select-style{background-position:93% 46%;background-size:16px auto}
+
+    #other-test {width:125px;height:125px;/*background-size:50px auto;*/}
+
+    #other-test:hover{/*background-size:50px auto*/}
+
+    .notify-title{font-size:18px;}
+
+    .notification-links td a{padding-bottom:9px;}
+
+    .notification-links td a img,.notification-links td a .tabs-title{height:25px;}
+
+    .notification-links td a img{margin:0 12px}
+
+    .bell-notify{width:5px;height:5px;}
+
+    .notification-links td a .tabs-title{margin:0 0 0 -2px;}
+
+    .notification-links td a{font-size:18px;}
+
+    .notification-links td a.active{padding-bottom:7px;}
+
+    .update-location{padding:7px 0}
+
+    .update-location img{height:25px;}
+
+    .job-thumb 	{margin-bottom:10px}
+
+    .job-thumb-holder{width:100px;height:100px  }
+
+    .job-dtl 	{padding:0 0 0 20px;margin-left:100px;}
+
+    .meeting-row,.meeting-row .km {font-size:18px;}
+
+    .job-dtl h3 {font-size:24px;padding:2px 0px }
+
+    .date-time 	{font-size:17px;}
+
+    .date-time 	{font-size:15px;}
+
+    .time 		{position: static;margin:3px 0 3px 0; }
+
+
+
+    .location-main{padding:10px 0px;}
+
+    .location-pin{width:25px; }
+
+    .send-mesage{font-size:15px;line-height:16px;padding:7px 10px 10px 10px}
+
+    .location-address{margin:0 90px 0 40px }
+
+    .location-address p{font-size:15px;line-height:16px; }	
+
+    .wordaapp{font-size:14px;margin:10px 0 10px 40px;}
+
+    .butchers{font-size:14px;padding:10px 0 10px 40px}
+
+
+
+    .favourite-box 	{padding:10px; }
+
+    .favourite-holder 	{width:70px;height:70px;}
+
+    .favourite-dtl {margin: 0 0 0 90px; }
+
+    .favourite-dtl h3{font-size:17px;padding-bottom:0px;padding-top:15px }
+
+    .favourite-dtl h3 .km{font-size:17px; }
+
+    .rating-div	.number{font-size:16px;}
+
+    .rating-div img{width:17px}
+
+    .favourite-detail {margin-top:10px;margin-bottom:10px;padding:0 0px 0 15px}
+
+    .favourite-detail p{font-size:17px;line-height:19px;padding:5px 0;}
+
+    .pipe 			{margin:0 7px}
+
+
+
+    .messages-main	{padding-top:0px}
+
+    .messages-box 	{padding:7px 5px 7px 7px}
+
+    .msgimg-holder 	{width:45px;height:45px;}
+
+    .messages-box h3{margin-left:10px;font-size:18px}
+
+    .messages-box h3 span{font-size:15px}
+
+    .msg-dtl 		{font-size:15px;margin-top:-10px;}
+
+    .msg-dtl div,.msg-dtl div span{width:20px;height:20px}
+
+    .msg-dtl div span{font-size:15px;line-height:20px }
+
+
+
+
+
+    .listing-row h3 {font-size:17px;}
+
+    .listing-div span{font-size:13px;padding:0px 4px;line-height:15px  }
+
+    .listing-div .last-seen{font-size:12px;}
+
+    .listing-div 	{background-size:auto 15px}
+
+    .listing-div span::after{right:-2px;top:2px;height:10px }
+
+    .listing-div span.last-seen::after{ }
+
+
+
+    .blacking-wing-main .user-div{width:100px;height:100px }
+
+    .blacking-wing-main .user-div .MultiFile-label span{height:100px}
+
+    .blacking-wing-main .favourite-dtl{margin:0 0 0 115px}
+
+    .blacking-wing-main .favourite-dtl h3{padding-bottom:5px }
+
+    .blacking-wing-main .favourite-dtl h3 .km{top:2px }
+
+    .blacking-wing-main .rating-div {margin-bottom:13px;}
+
+    .blacking-wing-main .reviews-btn{font-size:16px; padding:5px 25px 5px 25px;line-height:20px }
+
+
+
+    .photo-video-title{padding-bottom:10px}
+
+    .uploadthumb{margin:0px 2% 2% 0;width:31.3%; }
+
+    #photo-upload{width:31.3%;height:110px}
+
+
+
+    .reviews-profile-verified .user-div{width:85px;height:85px }
+
+    .reviews-profile-verified  .favourite-dtl{margin:-5px 0 0 95px }
+
+    .reviews-profile-verified .favourite-dtl h3{padding-bottom:0px;padding-top:0px;  }
+
+    .reviews-profile-verified .rating-div{margin-bottom:5px;margin-top:0px}
+
+    .reviews-profile-verified .rating-div img{width:15px;   }
+
+    .three-btns-div .button{font-size:14px;padding:10px 4px;width:auto;margin-right:2px}
+
+
+
+    .prfl-div 			{padding:7px }
+
+    .prfl-div label 	{font-size:14px;}
+
+    .prfl-div .prfl-dtl {font-size:16px;}
+
+    .div-row .left-div, .cv{font-size:16px}
+
+    .div-row .right-div {font-size:16px}
+
+    .div-row 	{margin-bottom:15px }
+
+    .cv-dtl 	{padding:10px 15px;}
+
+    .cv-dtl p 	{font-size:16px;line-height:20px}
+
+    .photo-video{margin:0 -5px}
+
+    .photo-div 	{padding:5px}
+
+    .photo-div a img.play-icon {width:50px;margin:-25px 0 0 -25px}
+
+
+
+    .job-row h2 	{font-size:22px;}
+
+    .detail-div h4 	{font-size:20px;}
+
+    .detail-div p, .ollist li{font-size:17px;line-height:normal}	
+
+    .budget-div,.duration-div{font-size:17px;}
+
+    .typeAmt input{width:50px}
+
+    .daysAmt input 		{width:25px }
+
+    .typeAmt input,.daysAmt input{font-size:17px;}	
+
+
+
+    .budget-duration{padding-bottom:10px; }	
+
+    .posted-dt 	{font-size:18px;padding-top:10px;}
+
+
+
+    .for-rating .favourite-holder {width:50px;height:50px;}
+
+    .for-rating .favourite-dtl {margin:0 0 0 60px;}
+
+    .for-rating .favourite-dtl h3{padding:10px 0 5px 0;font-size:18px;}
+
+    .rating-div img 	{width:15px }
+
+    .for-rating .favourite-dtl p{font-size:16px;line-height:22px;padding-top:0px;}
+
+    .km-away{font-size:15px;right:0px;line-height:18px }
+
+    .thumb-row .control__indicator, .thumb-row .control,.control__indicator{width:30px;height:30px  }
+
+    .km-last-seen 	{margin-top:5px;}
+
+    .for-rating .rating-div{top:7px;font-size:15px }	
+
+
+
+    .intrested-edit-cancel .button{font-size:15px }
+
+    /*.photo-job-video .row div{padding:17px 0}*/
+
+    .photo-job-video a{font-size:15px;}
+
+
+
+    .post-a-job-main{padding:15px;}
+
+    .job-input 		{padding:8px 10px;font-size:16px;}
+
+    .job-textarea 	{height:125px; }
+
+    .rq-textarea 	{height:75px; }
+
+
+
+    .select-all		{margin-left:20px;padding-left:45px; }
+
+
+
+    .invite-main 	{padding:15px}
+
+
+
+
+
+    .invite-box .favourite-dtl h3{padding-top:4px;padding-bottom:0px;  }
+
+    .for-rating .rating-div{margin-bottom:3px }
+
+    .rating-review 	{top:-2px}
+
+    .invite-box .favourite-dtl h3 p{padding-top:0px}
+
+    .rating-review .button{width:130px;font-size:15px;padding:3px 0px;  }
+
+
+
+    .location-text p{font-size:20px;line-height:23px; }
+
+    .location-text p.font-size24{font-size:18px!important}
+
+    .exact-location p{font-size:17px;}
+
+    .butchers-flattening-div p{font-size:18px;}
+
+    .date-time-div{font-size:21px;}
+
+    .photo-shooting{font-size:20px;}
+
+    .allow-div .control,.control__not_alowed{font-size:14px;}
+
+    .hours-minutes p{font-size:16px;width:100px;line-height:19px;height:45px }
+
+    .num-box 		{width:42px;height:28px;font-size:18px;padding:2px 0px;margin:0 5px 0 0;line-height:24px  }
+
+    .input-numbox .num-box{width:55px;height:40px;padding:0px 0px;font-size:20px;}
+
+    .input-numbox input{height:40px;padding:2px 0px;font-size:20px;}
+
+    .hours-minutes div.second-div{margin-left:130px;padding-right:0px}
+
+    .hours-minutes .box-shadow{padding:8px 10px}
+
+    .second-div .usd-span{font-size:14px;margin-top:4px}
+
+    .second-div .input-numbox .usd-span{font-size:20px;margin-top:4px}
+
+    .hours-minutes div.second-div p{width:auto}
+
+    .hours-minutes div.margin-left0 p{height:auto}
+
+    .meeting-topics {padding:5px 0;}
+
+    .meeting-topics p{font-size:18px;}
+
+    .share-experience{padding:7px}
+
+    .share-experience p{font-size:18px;line-height:22px}
+
+    .meting-note 	{font-size:16px;}
+
+
+
+    .js .input-file-trigger {padding:15px 15px 15px 35px;font-size:17px;background-size:15px auto!important}
+
+
+
+    .login-main {padding:20px 30px}
+
+    .login-main .button,.registered-main .button{font-size:18px; }
+
+    .login-main .button{padding:7px 37px 7px 37px}	
+
+    .login-main .form-group{padding-bottom:3px }
+
+    .login-main p,.registered-main p{font-size:18px; }
+
+    .forgot-pass 	{font-size:13px;}
+
+    .registered-main{padding:15px; }
+
+    .registered-main p{margin-bottom:15px }
+
+
+
+    .make-profile 		{padding:35px 25px 15px 25px}
+
+    .map-icon 			{width:90px;}	
+
+    .make-profile-div 	{padding:15px 0 25px 0}
+
+    .make-profile-div .button{font-size:20px;padding-left:35px;padding-right:35px;display:block;white-space:nowrap}
+
+    .skip-div a			{font-size:22px;}
+
+
+
+    .fancybox-inner .sub-link-main{width:340px}
+
+    .sub-link-list {padding:0 15px}	
+
+    .sub-link-title {font-size:21px;padding:12px 0px;}
+
+    .sub-link-list a {padding:10px 0px;font-size:18px;}
+
+
+
+    .menu-main 		{width:84% }
+
+    .loged-user 	{padding:10px 20px 10px 10px}
+
+    .loged-user-img{width:60px;height:60px;}
+
+    .loged-user-title{font-size:17px;margin-left:75px;/*padding:14px 30px 14px 0px;*/}
+    .loged-user-title-sub{height:60px;}
+    .menu-links 	{padding:10px 0px 10px 0px}
+
+    .menu-links li a{font-size:19px;padding:8px 0px 8px 22px }	
+
+    .menu-links li .menu-icon{width:35px;margin-right:20px  }
+
+    .main-user 	{background-size:20px auto}
+
+
+
+    .subuser .loged{margin:12px 0 0px 0}
+
+    .subuser .add-account {margin-top:7px;}
+
+
+
+    .reset-button{height:45px;}
+
+    .photo-video-title{font-size:16px}
+
+
+
+    .video-upload .input-file-trigger{font-size:22px;}
+
+    .confirmation p{font-size:18px }
+
+
+
+    .confirmation p{font-size:18px }
+
+    .confirmation .pay-tok{font-size:21px!important }
+
+
+
+    .termscondition{font-size:16px}
+
+
+
+    .inv-pro-row 		{font-size:17px;padding:4px 0px 4px 0px;line-height:19px }
+
+    .inv-pro-row label 	{font-size:16px;width:150px; }
+
+    .inv-pro-row .prfl-dtl{margin-left:150px  }
+
+    .update-location{font-size:19px;}
+
+    .advance-search .select-style{background-position:96% 46%}
+
+    .advance-search .select-style select,.advance-search .textarea{padding:10px 10px;font-size:20px;}
+
+    .select-all {font-size:20px;}
+
+    .control__indicator, .thumb-row .control__indicator, .thumb-row .control{width:22px;height:22px}
+
+
+
+    .feedback-icon {width:35px;}
+
+    .feedback-div h3{width:85%;font-size:17px;line-height:20px;}
+
+    .feedback-main .form-control{height:100px}
+
+    .feedback-main .feedTextarea textarea{font-size:17px;line-height:20px;padding:7px 10px;}
+
+}
+
+@media screen and (min-width:300px) and (max-width:413px) {
+
+    /*.for-rating .favourite-dtl h3{padding:10px 0 5px 0;font-size:22px; }*/
+
+    /*.for-rating .rating-div{float: none;position: static}
+
+    .for-rating .favourite-detail p{line-height:27px }
+
+    .km-away{font-size:17px;right:0px;line-height:18px }*/	
+
+    .bottom-holder{height:52px; }
+
+    .work-hire-main{padding:9px 0}
+
+    .work-hire-main .container{height:31px }
+    .home-link{top:1px}
+    .menu-link{top:2px}
+
+    .form-control{font-size:20px;line-height:24px; }
+
+    .form-main .button{font-size:20px;line-height:25px; }
+
+    .intrested-div{padding-right:0px; }
+
+    .edit-div{padding-left:7px;padding-right:7px;}
+
+    .cancel-div{padding-left:0px }
+
+
+
+    .post-a-job-main{padding:10px;}
+
+    .job-input 		{padding:8px 10px;font-size:16px;}
+
+    .job-textarea 	{height:125px; }
+
+    .rq-textarea 	{height:100px; }
+
+    .post-a-job-main h2{font-size:25px}
+
+
+
+    .meet-invite 	{height:50px;bottom:50px}
+
+    .meet-invite a {padding:7px 0 5px 0 }
+
+    .meet-invite a .meet-icon{height:20px;}
+
+    .meet-invite a span{font-size:16px; }
+
+    .meet-invite a span.mi-title{line-height:18px;}
+
+
+
+    .about-main h2{font-size:22px;padding-top:15px}
+
+    .about-main p{font-size:16px;line-height:20px}
+
+
+
+    .plus-sign, #change-photo{width:35px;height:35px;bottom:-17px;margin-left:-17px;}
+
+    .feedback-div h3{padding-left:10px; }
+
+}
+
+@media screen and (min-width:300px) and (max-width:374px) {	
+
+    /*header .container{padding-top:16px;padding-bottom:14px  }
+
+    .selectric .label 	{font-size:16px;line-height:17px;}*/
+
+    .notification-links td:first-child .tabs-title,.notification-links td:last-child .tabs-title{padding:3px;}
+
+    .selectric .button,.filter-link{background-size:15px auto;}
+
+    .selectric .button,.filter-link2{background-size:15px auto;}
+
+    .bell-div 	{width:20px;margin-left:-10px;top:8px}	
+
+    .selectric .label, .filter-link{padding-top:9px;padding-bottom:9px;}
+
+    .selectric .label, .filter-link2{padding-top:9px;padding-bottom:9px;}
+
+    .job-posted-user{font-size:15px;}
+
+    .job-title {font-size:13px;}
+
+    .likes-div{font-size:18px;}
+
+    .doted-main{width:40px}
+
+
+
+    .work-hire-main{height:50px;}
+
+    .home-link 	{left:4%;top:0px;width:25px;}
+
+    .menu-link{width:21px;top:2px}
+
+    .work-link,.hire-link{padding:0px 0px 0px 0px;font-size:16px;height:31px;width:70px;border-radius:10px;line-height:30px}
+
+    .work-link 	{left:17%;}
+
+    .hire-link	{right:17%;}
+
+    .menu-link 	{right:4%;top:4px}
+
+    .plus-link 	{width:33px;height:30px;margin-left:-16px;font-size:25px;line-height:28px}
+
+    h2 			{font-size:20px }
+
+    .button 	{font-size:18px }
+
+    .width325 	{width:175px }
+
+    .plus-sign 	{width:30px;height:30px;font-size:30px;margin-left:-15px;bottom:-15px;line-height:30px}	
+
+    .select-style select,.talent-textarea{padding:13px 8px;font-size:13px;}
+
+    .select-style{background-position:93% 47%;background-size:14px auto}
+
+    #other-test {width:110px;height:110px;/*background-size:40px auto*/}
+
+    #other-test:hover{/*background-size:40px auto*/}
+
+    .notify-title 		{font-size:16px;}
+
+    .notification-links td a{padding-bottom:7px;}
+
+    .notification-links td a img,.notification-links td a .tabs-title{height:20px;}
+
+    .notification-links td a img{margin:0 10px}
+
+    .bell-notify{width:4px;height:4px;}
+
+    .notification-links td a .tabs-title{margin:0 0 0 -2px;}
+
+    .notification-links td a{font-size:16px;}
+
+    .notification-links td a.active{padding-bottom:5px;}
+
+    .update-location{padding:6px 0}
+
+    .update-location img{height:23px;}
+
+    .job-thumb 	{margin-bottom:10px}
+
+    .job-thumb-holder{width:75px;height: 75px}
+
+    .job-dtl 	{padding:0 0 0 15px;margin-left:75px;}
+
+    .meeting-row,.meeting-row .km {font-size:16px;}
+
+    .job-dtl h3 {font-size:22px;padding:2px 0px }
+
+    .date-time 	{font-size:15px;}
+
+    .time 		{position: static;margin:3px 0 3px 0; }
+
+
+
+    .location-main{padding:10px 0px;}
+
+    .location-pin{width:25px; }
+
+    .send-mesage{font-size:15px;line-height:16px;padding:7px 10px 10px 10px}
+
+    .location-address{margin:0 90px 0 40px }
+
+    .location-address p{font-size:15px;line-height:16px; }	
+
+    .wordaapp{font-size:14px;margin:10px 0 10px 40px;}
+
+    .butchers{font-size:14px;padding:10px 0 10px 40px}
+
+
+
+    .favourite-box 	{padding:10px; }
+
+    .favourite-holder 	{width:65px;height:65px;}
+
+    .favourite-dtl {margin: 0 0 0 80px; }
+
+    .favourite-dtl h3{font-size:18px;padding-bottom:0px;padding-top:18px }
+
+    /*.favourite-dtl h3 .km{font-size:15px;top:12px}*/
+    .favourite-dtl h3 .km{font-size:15px;}
+
+    .rating-div	.number{font-size:15px;}
+
+    .rating-div img{width:15px}
+
+    .favourite-detail {margin-top:10px;margin-bottom:10px;padding:0 0px 0 10px}
+
+    .favourite-detail p{font-size:17px;line-height:normal;padding:4px 0;}
+
+    .pipe 			{margin:0 5px}
+
+    .km-away 		{font-size:14px;line-height:16px;right:5px }
+
+
+
+    .messages-main	{padding-top:0px}
+
+    .messages-box 	{padding:5px 3px 5px 5px}
+
+    .msgimg-holder 	{width:35px;height:35px;}
+
+    .messages-box h3{margin-left:10px;font-size:16px}
+
+    .messages-box h3 span{font-size:14px}
+
+    .msg-dtl 		{font-size:14px;margin-top:-9px;}
+
+    .msg-dtl div,.msg-dtl div span{width:18px;height:18px}
+
+    .msg-dtl div span{font-size:14px;line-height:20px }	
+
+
+
+    .listing-div .last-seen{font-size:12px;}
+
+    .listing-div 	{background-size:auto 15px}
+
+    .listing-div span::after{right:-2px;top:2px;height:10px }
+
+    .listing-div span.last-seen::after{right:-4px }
+
+
+
+    .blacking-wing-main .user-div{width:100px;height:100px }
+
+    .blacking-wing-main .user-div .MultiFile-label span{height:100px}
+
+    .blacking-wing-main .favourite-dtl{margin:0 0 0 115px}
+
+    .blacking-wing-main .favourite-dtl h3{padding-bottom:5px }
+
+    .blacking-wing-main .favourite-dtl h3 .km{top:2px }
+
+    .blacking-wing-main .rating-div {margin-bottom:13px;}
+
+    .blacking-wing-main .reviews-btn{font-size:16px; padding:5px 25px 5px 25px;line-height:20px }
+
+
+
+    .photo-video-title{font-size:20px;padding-bottom:15px }
+
+    .uploadthumb{margin:0px 2.5% 2.5% 0;width:45%; }
+
+    #photo-upload{width:45%;height:130px}
+
+
+
+    .reviews-profile-verified .user-div{width:80px;height:80px  }
+
+    .reviews-profile-verified  .favourite-dtl{margin:0 0 0 90px }
+
+    .reviews-profile-verified .favourite-dtl h3{padding-bottom:0px;padding-top:0px;  }
+
+    .reviews-profile-verified .rating-div{margin-bottom:5px;margin-top:0px}
+
+    .reviews-profile-verified .rating-div img{width:15px;   }
+
+    .three-btns-div .button{font-size:12px;padding:8px 3px;width:auto;margin-right:1px}
+
+
+
+    .prfl-div 			{padding:5px }
+
+    .prfl-div label 	{font-size:12px;}
+
+    .prfl-div .prfl-dtl {font-size:14px;}
+
+    .div-row .left-div, .cv{font-size:16px}
+
+    .div-row .right-div {font-size:16px}
+
+    .div-row 	{margin-bottom:15px }
+
+    .cv-dtl 	{padding:10px 15px;}
+
+    .cv-dtl p 	{font-size:16px;line-height:20px}
+
+    .photo-video{margin:0 -5px}
+
+    .photo-div 	{padding:5px}
+
+    .photo-div a img.play-icon {width:50px;margin:-25px 0 0 -25px}
+
+
+
+    .job-row h2 		{font-size:22px;}
+
+    .detail-div h4 		{font-size:20px;}
+
+    .detail-div p, .ollist li{font-size:18px;line-height:normal}	
+
+    .budget-div,.duration-div{font-size:15px;}
+
+    .typeAmt input,.daysAmt input{font-size:15px;padding:0px 2px }
+
+    .typeAmt input{width:40px }
+
+    .daysAmt input{text-align:right;width:20px }
+
+    .budget-duration{padding-bottom:10px; }
+
+    .posted-dt 	{font-size:14px;padding-top:10px;}
+
+    .intrested-edit-cancel .button{font-size:13px; }
+
+
+
+    /*.photo-job-video .row div{padding:15px 0}*/
+
+    .photo-job-video a{font-size:13px;}
+
+    .select-all		{margin-bottom:15px;margin-left:20px}
+
+    .for-rating .favourite-holder {width:50px;height:50px;}
+
+    .for-rating .favourite-dtl {margin:0 0 0 60px;}
+
+    .for-rating .favourite-dtl h3{padding:10px 0 5px 0;font-size:18px;}
+
+    .rating-div img 	{width:15px }
+
+    .for-rating .rating-div{position:static;float:none;margin-bottom:5px}
+
+    .km-last-seen{margin-top:5px; }
+
+    .for-rating .favourite-dtl p{font-size:16px;line-height:22px;padding-top:0px;}
+
+    .control__indicator,.thumb-row .control__indicator, .thumb-row .control{width:30px;height:30px;}
+
+
+
+    .invite-box .favourite-dtl h3{padding-top:1px;padding-bottom:0px}
+
+    .rating-review {position:static;float:none;text-align:left}
+
+    .rating-review .button{width:130px;font-size:15px;padding:3px 0px;}
+
+
+
+    .invite-box .favourite-dtl h3{padding-top:1px}
+
+    .for-rating .rating-div{margin-bottom:3px}
+
+    .rating-review 	{top: -4px}
+
+    .invite-box .favourite-dtl h3 p{padding-top:0px}
+
+    .rating-review .button{width:130px;font-size:15px;padding:3px 0px;}
+
+
+
+    .location-text p{font-size:20px;line-height:23px;}
+
+
+
+    .location-text p.font-size24{font-size:17px!important}
+
+    .exact-location{padding-left:10px}	
+
+    .exact-location p{font-size:16px;}	
+
+    .butchers-flattening-div p{font-size:16px;}	
+
+    .date-time-div{font-size:20px;}	
+
+    .photo-shooting{font-size:16px;}
+
+    .allow-div .control{height:30px;line-height:29px;padding:0px 45px 0px 25px}
+
+    .allow-div .control__indicator{width:30px;height:30px}
+
+    .allow-div .control,.control__not_alowed{font-size:13px;line-height:32px;}
+
+    .allow-div .control{margin:2px 10px 2px 0px}
+
+    .hours-minutes p{font-size:16px;width:80px;line-height:19px;height:45px}
+
+    .hours-minutes div.second-div{margin-left:110px;padding-right:0px}
+
+    .num-box 		{width:38px;height:28px;font-size:18px;padding:3px 0px;margin:0 2px 0 0;line-height:24px}	
+
+
+
+    .hours-minutes .box-shadow{padding:8px 10px}
+
+    .second-div .usd-span{font-size:14px;margin-top:6px}
+
+    .hours-minutes div.second-div p{width:auto}
+
+    .hours-minutes div.margin-left0 p{height:auto}
+
+    .meeting-topics {padding:5px 0;}
+
+    .meeting-topics p{font-size:17px;}
+
+    .share-experience{padding:7px}
+
+    .share-experience p{font-size:15px;line-height:22px}
+
+    .meting-note 	{font-size:15px;}
+
+
+
+    .js .input-file-trigger {padding:15px 15px 15px 35px;font-size:17px;background-size:17px auto!important}
+
+
+
+    .login-main {padding:25px 0px 25px 0px}
+
+    .login-main .button,.registered-main .button{font-size:18px; }
+
+    .login-main .button{padding:7px 37px 7px 37px}	
+
+    .login-main .form-group{padding-bottom:3px }
+
+    .login-main .form-group .form-control{font-size:18px;padding:8px 10px}
+
+    .login-main p,.registered-main p{font-size:18px; }
+
+    .forgot-pass 	{font-size:14px;}
+
+    .registered-main{padding:15px; }
+
+    .registered-main p{margin-bottom:15px }
+
+
+
+    .reset-button{height:32px;}
+
+    .photo-video-title{font-size:14px}
+
+    .video-upload .input-file-trigger{font-size:18px;}
+
+    .update-location{font-size:18px;}
+
+    .select-style select{padding:6px 30px 6px 8px;font-size:16px;}
+    .form-control {font-size:16px;padding:6px;}
+
+
+}
+
+@media screen and (min-width:360px) and (max-width:374px) {
+
+
+
+    .topbar 	{padding:8px 0 8px 0 }
+
+    .view-website {font-size:17px;}
+
+    .selectric .label{margin:0 25px 0 0px}
+
+    .filter-link{padding-right:20px}
+
+    .filter-link2{padding-right:20px}
+
+    .selectric-items li {line-height:16px;font-size:14px;padding:8px 10px;}
+
+    .user-div	{width:110px;}
+
+    .user-img,.user-div .MultiFile-label span{height:110px}
+
+    .user-title {font-size:20px;}	
+
+    .fltr-icon img{height:27px}
+
+    .fltr-title {font-size:13px;padding-top:3px}
+
+    .for-rating .favourite-dtl h3{padding:15px 0 5px 0}
+
+    .for-rating .rating-div{position:absolute;right:0px;top:12px}	
+    .for-rating .rating-right .rating-div{position:static;}
+
+    .km-away 	{font-size:18px;line-height:20px;right:0px}
+
+
+
+    .invite-box .favourite-dtl h3{padding-top:5px;padding-bottom:0px;}
+
+    .for-rating .rating-div{margin-bottom:3px }
+
+    .invite-box .rating-review 	{top:-2px;position:absolute;right:0px;}
+
+    .invite-box .rating-div{position: static}
+
+    .rating-div img{width:14px}
+
+    .invite-box .favourite-dtl h3 p{padding-top:0px;padding-bottom:7px;}
+
+    .rating-review .button{width:125px;font-size:14px;padding:3px 0px;}
+
+    .js .input-file-trigger{background-position:15px center}
+
+
+
+    .make-profile 		{padding:30px 30px 15px 30px}
+
+    .map-icon 			{width:80px;}	
+
+    .make-profile-div 	{padding:13px 0 20px 0}
+
+    .make-profile-div .button{font-size:20px;padding-left:35px;padding-right:35px;display:block;white-space:nowrap}
+
+    .skip-div a			{font-size:20px;}
+
+
+
+    .fancybox-inner .sub-link-main{width:320px}
+
+    .sub-link-list {padding:0 15px}
+
+    .sub-link-title {font-size:20px;padding:10px 0px;}
+
+    .sub-link-list a {padding:10px 0px;font-size:17px;}
+
+
+
+    .loged-user 	{padding:10px 20px 10px 10px}
+
+    .loged-user-img{width:55px;height:55px;}
+
+    .loged-user-title{font-size:18px;margin-left:70px;/*padding:14px 30px 14px 0px*/}
+    .loged-user-title-sub{height:55px;}
+    .menu-links 	{padding:10px 0px 10px 0px}
+
+    .menu-links li a{font-size:17px;padding:8px 0px 8px 18px }	
+
+    .menu-links li .menu-icon{width:33px;margin-right:15px  }
+
+    .main-user 	{background-size:18px auto}
+
+
+
+    .subuser .loged{margin:12px 0 0px 0}
+
+    .subuser .add-account {margin-top:7px;}
+
+
+
+    .listing-div span{font-size:13px;padding:0px 3px;line-height:15px}
+
+    .listing-div .last-seen {font-size:12px;}
+
+
+
+    .budget-div,.duration-div{font-size:16px;}
+
+    .typeAmt input,.daysAmt input{font-size:16px;padding:0px 2px }
+
+    .typeAmt input{width:50px }
+
+    .daysAmt input{text-align:right;width:35px }
+
+    .budget-duration{padding-bottom:10px; }
+
+    .hours-minutes div.second-div{margin-left:135px;  }
+
+    .input-numbox .num-box{width:50px;height:35px;padding:0px 0px;font-size:20px;margin-right:5px; }
+
+    .input-numbox input{height:35px;padding:2px 0px;font-size:20px;}
+
+    .second-div .usd-span {font-size:20px;margin-top:4px;}
+
+
+
+    .div-row .left-div, .cv{font-size:15px}
+
+    .div-row .right-div {font-size:15px}
+
+    .cv-dtl p{font-size:15px}
+
+    .listing-row h3 {font-size:16px;}
+
+    .confirmation p{font-size:17px }
+
+    .confirmation .pay-tok{font-size:20px!important }
+
+    .termscondition{font-size:16px}
+
+
+
+    .inv-pro-row 		{font-size:16px;padding:4px 0px 4px 0px;line-height:18px}
+
+    .inv-pro-row label 	{font-size:15px;width:140px;}
+
+    .inv-pro-row .prfl-dtl{margin-left:140px}
+
+    .advance-search .select-style{background-position:96% 46%}
+
+    .advance-search .select-style select,.advance-search .textarea{padding:10px 15px;font-size:20px;}
+
+    .select-all {font-size:18px;}
+
+    .control__indicator, .thumb-row .control__indicator, .thumb-row .control{width:22px;height:22px}
+
+    .feedback-icon {width:27px;}
+
+    .feedback-div h3{width:88%;font-size:16px;line-height:18px}
+
+    .feedback-main .form-control{height:100px}
+
+    .feedback-main .feedTextarea textarea{font-size:16px;line-height:18px;padding:5px 10px}
+
+    .three-btns-div .button{padding:8px 7px}
+
+}
+
+@media screen and (min-width:300px) and (max-width:359px) {
+
+    .form-control{padding: 4px 30px 4px 8px;font-size: 12px;}	
+
+    .topbar 	{padding:5px 0 5px 0}
+
+    .view-website {font-size:15px;}
+
+    .selectric .label{margin:0 25px 0 0px}
+
+    .filter-link{padding-right:20px}
+
+    .filter-link2{padding-right:20px}
+
+    .selectric .label, .filter-link{font-size:16px;}
+
+    .selectric .label, .filter-link2{font-size:16px;}
+
+    .selectric-items li {line-height:16px;font-size:14px;padding:8px 10px;}
+
+    .fltr-icon img{height:25px}
+
+    .fltr-title {font-size:12px;padding-top:3px}
+
+    .user-div	{width:100px;}
+
+    .user-img,.user-div .MultiFile-label span{height:100px}
+
+    .user-title {font-size:18px;}
+
+    .select-style select,.talent-textarea{padding:4px 30px 4px 8px;font-size:12px;}
+
+    /*.select-style select{padding: 10px 8px;!important}*/
+
+    .left-select .select-style select{padding:4px 0px;font-size:16px;}
+
+    .single-row{height:70px  }
+
+    .double-row{height: 110px  }
+
+    .js .input-file-trigger {padding:15px 15px 15px 35px;font-size:14px;background-size:17px auto!important;background-position:15px center}
+
+
+
+
+
+    .make-profile 		{padding:20px 17px 10px 17px}
+
+    .map-icon 			{width:80px;}	
+
+    .make-profile-div 	{padding:13px 0 20px 0}
+
+    .make-profile-div .button{font-size:18px;padding-left:35px;padding-right:35px;display:block;white-space:nowrap}
+
+    .skip-div a			{font-size:18px;}
+
+
+
+    .fancybox-inner .sub-link-main{width:280px}
+
+    .sub-link-list {padding:0 15px}
+
+    .sub-link-title {font-size:18px;padding:10px 0px;}
+
+    .sub-link-list a {padding:9px 0px;font-size:16px;}
+
+
+
+    .menu-main 		{width:87%}
+
+    .loged-user 	{padding:10px 20px 10px 10px}
+
+    .loged-user-img {width:50px;height:50px;}
+
+    .loged-user-title{font-size:17px;margin-left:65px;/*padding:14px 30px 14px 0px;*/}
+    .loged-user-title-sub{height:50px;}
+    .menu-links 	{padding:10px 0px 10px 0px}
+
+    .menu-links li a{font-size:16px;padding:8px 0px 8px 18px}	
+
+    .menu-links li .menu-icon{width:32px;margin-right:15px}
+
+    .main-user 		{background-size:18px auto}
+
+
+
+    .subuser .loged{margin:10px 0 0px 0}
+
+    .subuser .add-account {margin-top:5px;}
+
+    .listing-row h3 {font-size:16px;}
+
+    .listing-div span{font-size:11px;padding:0px 4px;line-height:15px}
+
+    .listing-div .last-seen{font-size:10px;}
+
+    .input-numbox .num-box{width:42px;height:30px;padding:0px 0px;font-size:18px;margin-right:5px;}
+
+    .input-numbox input{height:30px;padding:2px 0px;font-size:18px;}
+
+    .second-div .usd-span {font-size:18px;margin-top:3px;}
+
+
+
+    .div-row .left-div, .cv{font-size:14px}
+
+    .div-row .right-div {font-size:14px}
+
+    .cv-dtl p{font-size:15px}
+
+
+
+    .listing-row h3 {font-size:17px;}
+
+    .confirmation p{font-size:16px }
+
+    .confirmation .pay-tok{font-size:19px!important }
+
+    .termscondition{font-size:14px}
+
+
+
+    .inv-pro-row 		{font-size:15px;padding:3px 0px 4px 0px;line-height:17px}
+
+    .inv-pro-row label 	{font-size:14px;width:130px;}
+
+    .inv-pro-row .prfl-dtl{margin-left:130px}
+
+    .advance-search .select-style{background-position:96% 46%}
+
+    .advance-search .select-style select,.advance-search .textarea{padding:8px 15px;font-size:18px;}
+
+    .select-all {font-size:17px;}
+
+    .control__indicator, .thumb-row .control__indicator, .thumb-row .control{width:20px;height:20px}
+
+    .feedback-icon {width:25px;}
+
+    .feedback-div h3{width:88%;font-size:15px;line-height:18px}
+
+    .feedback-main .form-control{height:100px}
+
+    .feedback-main .feedTextarea textarea{font-size:15px}
+    .three-btns-div .button{padding:8px 3px;font-size:11px;}
+}
+
+@media screen and (min-width:300px) and (max-width:575px) {
+    .login-register .col-xs-6 {
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/*Retina graphics!*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+
+only screen and (min--moz-device-pixel-ratio: 1.5),
+
+only screen and (min-device-pixel-ratio: 1.5){
+
+
+
+    .replace-2x {
+
+        font-size: 1px;
+
+    }
+
 }

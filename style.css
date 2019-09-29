@@ -207,7 +207,7 @@ padding-top: 15px;}
 .work-link 			{left:20%}
 
 .plus-link 			{width:61px;height:56px;left:50%;border:1px solid #999999;border-radius:10px;font-size:50px;padding:0px;font-weight:300;line-height:50px;color:#4a4a4a;margin-left:-30px}
-.post-job-title{text-align: center;width: 100%;display: block;padding: 10px 0;margin-bottom: 0px;}
+
 .plus-link.selected{color:#fff;background:#999999}
 
 .hire-link			{right:20%;}
@@ -750,7 +750,6 @@ p 					{color:#828282;font-size:25px;line-height:30px;padding:7px 0  }
 .photo-job-video a:hover{color:#292b2c }
 
 .photo-job-video a.post-a-job{border-left:3px dashed #999999;border-right:3px dashed #999999;}
-.photo-job-video a.border_post{border-right:2px dashed #999999;}
 
 .photo-job-video a.current{color:#515151 }
 
@@ -926,7 +925,7 @@ p 					{color:#828282;font-size:25px;line-height:30px;padding:7px 0  }
 
 .orangebdr{border:1px solid #ffa087;}
 
-.hours-minutes .job-row{display:inline-block;width:auto;overflow:hidden}
+.hours-minutes .job-row{/*display:inline-block;*/width:auto;overflow:hidden}
 
 .hours-minutes .job-row .num-box:last-child{margin-right:0px; }
 
@@ -1480,16 +1479,32 @@ select::-ms-expand {
 
 }
 
+select{
+	background: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/></g></svg>') !important;
+	background-size: 13px !important;
+    background-position: 94% !important;
+    background-repeat: no-repeat !important;
+}
+select:focus{
+	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="116.087" height="62.1" viewBox="0 0 116.087 62.1"><g transform="translate(122.487 95.5) rotate(180)"><path d="M121.3,34.6a4.1,4.1,0,0,0-5.8,0l-51,51.1L13.4,34.6a4.1,4.1,0,0,0-5.8,5.8L61.5,94.3a4,4,0,0,0,2.9,1.2,4.175,4.175,0,0,0,2.9-1.2l53.9-53.9a4.018,4.018,0,0,0,.1-5.8Z"/></g></svg>') !important;
+	background-size: 13px !important;
+    background-position: 94% !important;
+    background-repeat: no-repeat !important;
+}
 
-select#hour,#minute,#offerpay{
-background: url('data:image/svg+xml;utf8,<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129"><g><path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z"/></g></svg>') !important;
-background-size: 13px !important;
-background-position: 94% !important;
-background-repeat: no-repeat !important;
-    width:100px;
+select, textarea, input{
+	font-size:14px !important;
 }
-/* .not-active {
-  pointer-events: none;
-  cursor: default;
+
+.req-sign{
+	position: absolute;
+    z-index: 1;
+    top: 4px;
+    right: 7px;
+	color:#ff0000;
+	font-size: 11px;
 }
-*/
+
+.req-box{
+	position:relative;
+}
